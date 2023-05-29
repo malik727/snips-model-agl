@@ -1,0 +1,46 @@
+# Window Action Entity
+---
+type: entity
+name: window_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [open, roll down, up]
+  - [close, roll up, down]
+
+
+# Window Name Entity
+---
+type: entity
+name: window_name
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [driver, drivers, driver side]
+  - [passenger, passengers, passenger side]
+  - [rear_left, rear left, back left]
+  - [rear_right, rear right, back right]
+
+
+# Window Percentage Entity
+---
+type: entity
+name: window_percentage
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - 10%
+  - 20%
+  - [25%, partially, little bit]
+  - 30%
+  - 40%
+  - [50%, halfway, half]
+  - 60%
+  - 70%
+  - 75%
+  - 80%
+  - 90%
+  - [100%, fully, completely, all the way]

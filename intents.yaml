@@ -1,0 +1,40 @@
+# Open/Close Windows Intent
+---
+type: intent
+name: openCloseWindow
+slots:
+  - name: action
+    entity: window_action
+  - name: name
+    entity: window_name
+  - name: percentage
+    entity: window_percentage
+utterances:
+  - "[action] the [name] window"
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - can you please [action] the [name] window [percentage]
+  - please [action] the [name] window
+  - could you [action] the [name] window [percentage]
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - can you please [action] the [name] window [percentage]
+  - I want to [action] the [name] window [percentage]
+  - I would like to [action] the [name] window [percentage]
+  - please [action] the [name] window [percentage]
+  - could you [action] the [name] window [percentage]
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - can you please [action] the [name] window [percentage]
+  - I want to [action] the [name] window [percentage]
+  - I would like to [action] the [name] window [percentage]
+  - please [action] the [name] window [percentage]
+  - could you [action] the [name] window [percentage]
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - "[action] the [name] window [percentage]"
+  - can you please [action] the [name] window [percentage]
