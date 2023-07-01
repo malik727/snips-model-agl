@@ -1,0 +1,44 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "hvac_fan_speed_action",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "hvac_fan_speed_value",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "hvac_temperature_action",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "hvac_temperature_value",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "media_player_action",
+      "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "media_player_value",
+      "entity_parser": "parser_6"
+    },
+    {
+      "entity_identifier": "turn_signal_direction",
+      "entity_parser": "parser_7"
+    },
+    {
+      "entity_identifier": "window_action",
+      "entity_parser": "parser_8"
+    },
+    {
+      "entity_identifier": "window_name",
+      "entity_parser": "parser_9"
+    },
+    {
+      "entity_identifier": "window_value",
+      "entity_parser": "parser_10"
+    }
+  ]
+}

@@ -1,5 +1,705 @@
 {
   "entities": {
+    "hvac_fan_speed_action": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "increase"
+        },
+        {
+          "synonyms": [],
+          "value": "decrease"
+        },
+        {
+          "synonyms": [
+            "change",
+            "adjust"
+          ],
+          "value": "set"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "hvac_fan_speed_value": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "to one",
+            "by one"
+          ],
+          "value": "one"
+        },
+        {
+          "synonyms": [
+            "to two",
+            "by two"
+          ],
+          "value": "two"
+        },
+        {
+          "synonyms": [
+            "to three",
+            "by three"
+          ],
+          "value": "three"
+        },
+        {
+          "synonyms": [
+            "to four",
+            "by four"
+          ],
+          "value": "four"
+        },
+        {
+          "synonyms": [
+            "to five",
+            "by five"
+          ],
+          "value": "five"
+        },
+        {
+          "synonyms": [
+            "to six",
+            "by six"
+          ],
+          "value": "six"
+        },
+        {
+          "synonyms": [
+            "to seven",
+            "by seven"
+          ],
+          "value": "seven"
+        },
+        {
+          "synonyms": [
+            "to eight",
+            "by eight"
+          ],
+          "value": "eight"
+        },
+        {
+          "synonyms": [
+            "to nine",
+            "by nine"
+          ],
+          "value": "nine"
+        },
+        {
+          "synonyms": [
+            "to ten",
+            "by ten"
+          ],
+          "value": "ten"
+        },
+        {
+          "synonyms": [
+            "to eleven",
+            "by eleven"
+          ],
+          "value": "eleven"
+        },
+        {
+          "synonyms": [
+            "to twelve",
+            "by twelve"
+          ],
+          "value": "twelve"
+        },
+        {
+          "synonyms": [
+            "to thirteen",
+            "by thirteen"
+          ],
+          "value": "thirteen"
+        },
+        {
+          "synonyms": [
+            "to fourteen",
+            "by fourteen"
+          ],
+          "value": "fourteen"
+        },
+        {
+          "synonyms": [
+            "to fifteen",
+            "by fifteen"
+          ],
+          "value": "fifteen"
+        },
+        {
+          "synonyms": [
+            "to twenty",
+            "by twenty"
+          ],
+          "value": "twenty"
+        },
+        {
+          "synonyms": [
+            "to twenty five",
+            "by twenty five"
+          ],
+          "value": "twenty five"
+        },
+        {
+          "synonyms": [
+            "to thirty",
+            "by thirty"
+          ],
+          "value": "thirty"
+        },
+        {
+          "synonyms": [
+            "to fourty",
+            "by fourty"
+          ],
+          "value": "fourty"
+        },
+        {
+          "synonyms": [
+            "to fifty",
+            "by fifty",
+            "halfway",
+            "half"
+          ],
+          "value": "fifty"
+        },
+        {
+          "synonyms": [
+            "to sixty",
+            "by sixty"
+          ],
+          "value": "sixty"
+        },
+        {
+          "synonyms": [
+            "to seventy",
+            "by seventy"
+          ],
+          "value": "seventy"
+        },
+        {
+          "synonyms": [
+            "to seventy five",
+            "by seventy five",
+            "three quarters"
+          ],
+          "value": "seventy five"
+        },
+        {
+          "synonyms": [
+            "to eighty",
+            "by eighty"
+          ],
+          "value": "eighty"
+        },
+        {
+          "synonyms": [
+            "to ninety",
+            "by ninety"
+          ],
+          "value": "ninety"
+        },
+        {
+          "synonyms": [
+            "to hundred",
+            "by hundred",
+            "fully",
+            "completely",
+            "all the way",
+            "max"
+          ],
+          "value": "hundred"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "hvac_temperature_action": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "increase"
+        },
+        {
+          "synonyms": [],
+          "value": "decrease"
+        },
+        {
+          "synonyms": [
+            "change",
+            "adjust"
+          ],
+          "value": "set"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "hvac_temperature_value": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "to one",
+            "by one"
+          ],
+          "value": "one"
+        },
+        {
+          "synonyms": [
+            "to two",
+            "by two"
+          ],
+          "value": "two"
+        },
+        {
+          "synonyms": [
+            "to three",
+            "by three"
+          ],
+          "value": "three"
+        },
+        {
+          "synonyms": [
+            "to four",
+            "by four"
+          ],
+          "value": "four"
+        },
+        {
+          "synonyms": [
+            "to five",
+            "by five"
+          ],
+          "value": "five"
+        },
+        {
+          "synonyms": [
+            "to six",
+            "by six"
+          ],
+          "value": "six"
+        },
+        {
+          "synonyms": [
+            "to seven",
+            "by seven"
+          ],
+          "value": "seven"
+        },
+        {
+          "synonyms": [
+            "to eight",
+            "by eight"
+          ],
+          "value": "eight"
+        },
+        {
+          "synonyms": [
+            "to nine",
+            "by nine"
+          ],
+          "value": "nine"
+        },
+        {
+          "synonyms": [
+            "to ten",
+            "by ten"
+          ],
+          "value": "ten"
+        },
+        {
+          "synonyms": [
+            "to eleven",
+            "by eleven"
+          ],
+          "value": "eleven"
+        },
+        {
+          "synonyms": [
+            "to twelve",
+            "by twelve"
+          ],
+          "value": "twelve"
+        },
+        {
+          "synonyms": [
+            "to thirteen",
+            "by thirteen"
+          ],
+          "value": "thirteen"
+        },
+        {
+          "synonyms": [
+            "to fourteen",
+            "by fourteen"
+          ],
+          "value": "fourteen"
+        },
+        {
+          "synonyms": [
+            "to fifteen",
+            "by fifteen"
+          ],
+          "value": "fifteen"
+        },
+        {
+          "synonyms": [
+            "to sixteen",
+            "by sixteen"
+          ],
+          "value": "sixteen"
+        },
+        {
+          "synonyms": [
+            "to seventeen",
+            "by seventeen"
+          ],
+          "value": "seventeen"
+        },
+        {
+          "synonyms": [
+            "to eighteen",
+            "by eighteen"
+          ],
+          "value": "eighteen"
+        },
+        {
+          "synonyms": [
+            "to nineteen",
+            "by nineteen"
+          ],
+          "value": "nineteen"
+        },
+        {
+          "synonyms": [
+            "to twenty",
+            "by twenty"
+          ],
+          "value": "twenty"
+        },
+        {
+          "synonyms": [
+            "to twenty one",
+            "by twenty one"
+          ],
+          "value": "twenty one"
+        },
+        {
+          "synonyms": [
+            "to twenty two",
+            "by twenty two"
+          ],
+          "value": "twenty two"
+        },
+        {
+          "synonyms": [
+            "to twenty three",
+            "by twenty three"
+          ],
+          "value": "twenty three"
+        },
+        {
+          "synonyms": [
+            "to twenty four",
+            "by twenty four"
+          ],
+          "value": "twenty four"
+        },
+        {
+          "synonyms": [
+            "to twenty five",
+            "by twenty five"
+          ],
+          "value": "twenty five"
+        },
+        {
+          "synonyms": [
+            "to twenty six",
+            "by twenty six"
+          ],
+          "value": "twenty six"
+        },
+        {
+          "synonyms": [
+            "to twenty seven",
+            "by twenty seven"
+          ],
+          "value": "twenty seven"
+        },
+        {
+          "synonyms": [
+            "to twenty eight",
+            "by twenty eight"
+          ],
+          "value": "twenty eight"
+        },
+        {
+          "synonyms": [
+            "to twenty nine",
+            "by twenty nine"
+          ],
+          "value": "twenty nine"
+        },
+        {
+          "synonyms": [
+            "to thirty",
+            "by thirty"
+          ],
+          "value": "thirty"
+        },
+        {
+          "synonyms": [
+            "to thirty one",
+            "by thirty one"
+          ],
+          "value": "thirty one"
+        },
+        {
+          "synonyms": [
+            "to thirty two",
+            "by thirty two"
+          ],
+          "value": "thirty two"
+        },
+        {
+          "synonyms": [
+            "to thirty three",
+            "by thirty three"
+          ],
+          "value": "thirty three"
+        },
+        {
+          "synonyms": [
+            "to thirty four",
+            "by thirty four"
+          ],
+          "value": "thirty four"
+        },
+        {
+          "synonyms": [
+            "to thirty five",
+            "by thirty five"
+          ],
+          "value": "thirty five"
+        },
+        {
+          "synonyms": [
+            "to thirty six",
+            "by thirty six"
+          ],
+          "value": "thirty six"
+        },
+        {
+          "synonyms": [
+            "to thirty seven",
+            "by thirty seven"
+          ],
+          "value": "thirty seven"
+        },
+        {
+          "synonyms": [
+            "to thirty eight",
+            "by thirty eight"
+          ],
+          "value": "thirty eight"
+        },
+        {
+          "synonyms": [
+            "to thirty nine",
+            "by thirty nine"
+          ],
+          "value": "thirty nine"
+        },
+        {
+          "synonyms": [
+            "to fourty",
+            "by fourty"
+          ],
+          "value": "fourty"
+        },
+        {
+          "synonyms": [
+            "to fourty one",
+            "by fourty one"
+          ],
+          "value": "fourty one"
+        },
+        {
+          "synonyms": [
+            "to fourty two",
+            "by fourty two"
+          ],
+          "value": "fourty two"
+        },
+        {
+          "synonyms": [
+            "to fourty three",
+            "by fourty three"
+          ],
+          "value": "fourty three"
+        },
+        {
+          "synonyms": [
+            "to fourty four",
+            "by fourty four"
+          ],
+          "value": "fourty four"
+        },
+        {
+          "synonyms": [
+            "to fourty five",
+            "by fourty five"
+          ],
+          "value": "fourty five"
+        },
+        {
+          "synonyms": [
+            "to fourty six",
+            "by fourty six"
+          ],
+          "value": "fourty six"
+        },
+        {
+          "synonyms": [
+            "to fourty seven",
+            "by fourty seven"
+          ],
+          "value": "fourty seven"
+        },
+        {
+          "synonyms": [
+            "to fourty eight",
+            "by fourty eight"
+          ],
+          "value": "fourty eight"
+        },
+        {
+          "synonyms": [
+            "to fourty nine",
+            "by fourty nine"
+          ],
+          "value": "fourty nine"
+        },
+        {
+          "synonyms": [
+            "to fifty",
+            "by fifty",
+            "halfway",
+            "half"
+          ],
+          "value": "fifty"
+        },
+        {
+          "synonyms": [
+            "to sixty",
+            "by sixty"
+          ],
+          "value": "sixty"
+        },
+        {
+          "synonyms": [
+            "to seventy",
+            "by seventy"
+          ],
+          "value": "seventy"
+        },
+        {
+          "synonyms": [
+            "to seventy five",
+            "by seventy five",
+            "three quarters"
+          ],
+          "value": "seventy five"
+        },
+        {
+          "synonyms": [
+            "to eighty",
+            "by eighty"
+          ],
+          "value": "eighty"
+        },
+        {
+          "synonyms": [
+            "to ninety",
+            "by ninety"
+          ],
+          "value": "ninety"
+        },
+        {
+          "synonyms": [
+            "to hundred",
+            "by hundred",
+            "fully",
+            "completely",
+            "all the way",
+            "max"
+          ],
+          "value": "hundred"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "media_player_action": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "start",
+            "resume"
+          ],
+          "value": "play"
+        },
+        {
+          "synonyms": [
+            "stop"
+          ],
+          "value": "pause"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "media_player_value": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "next"
+        },
+        {
+          "synonyms": [],
+          "value": "previous"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "turn_signal_direction": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "left side"
+          ],
+          "value": "left"
+        },
+        {
+          "synonyms": [
+            "right side"
+          ],
+          "value": "right"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
     "window_action": {
       "automatically_extensible": false,
       "data": [
@@ -56,99 +756,100 @@
       "matching_strictness": 0.8,
       "use_synonyms": true
     },
-    "window_percentage": {
+    "window_value": {
       "automatically_extensible": false,
       "data": [
         {
           "synonyms": [
-            "about 10%",
-            "by 10%"
+            "about ten",
+            "by ten"
           ],
-          "value": "10%"
+          "value": "ten"
         },
         {
           "synonyms": [
-            "about 20%",
-            "by 20%"
+            "about twenty",
+            "by twenty"
           ],
-          "value": "20%"
+          "value": "twenty"
         },
         {
           "synonyms": [
-            "about 25%",
-            "by 25%",
+            "about twenty five",
+            "by twenty five",
             "partially",
             "little bit"
           ],
-          "value": "25%"
+          "value": "twenty five"
         },
         {
           "synonyms": [
-            "about 30%",
-            "by 30%"
+            "about thirty",
+            "by thirty"
           ],
-          "value": "30%"
+          "value": "thirty"
         },
         {
           "synonyms": [
-            "about 40%",
-            "by 40%"
+            "about fourty",
+            "by fourty"
           ],
-          "value": "40%"
+          "value": "fourty"
         },
         {
           "synonyms": [
-            "about 50%",
-            "by 50%",
+            "about fifty",
+            "by fifty",
             "halfway",
             "half"
           ],
-          "value": "50%"
+          "value": "fifty"
         },
         {
           "synonyms": [
-            "about 60%",
-            "by 60%"
+            "about sixty",
+            "by sixty"
           ],
-          "value": "60%"
+          "value": "sixty"
         },
         {
           "synonyms": [
-            "about 70%",
-            "by 70%"
+            "about seventy",
+            "by seventy"
           ],
-          "value": "70%"
+          "value": "seventy"
         },
         {
           "synonyms": [
-            "about 75%",
-            "by 75%"
+            "about seventy five",
+            "by seventy five",
+            "three quarters"
           ],
-          "value": "75%"
+          "value": "seventy five"
         },
         {
           "synonyms": [
-            "about 80%",
-            "by 80%"
+            "about eighty",
+            "by eighty"
           ],
-          "value": "80%"
+          "value": "eighty"
         },
         {
           "synonyms": [
-            "about 90%",
-            "by 90%"
+            "about ninety",
+            "by ninety"
           ],
-          "value": "90%"
+          "value": "ninety"
         },
         {
           "synonyms": [
-            "about 100%",
-            "by 100%",
+            "about hundred",
+            "by hundred",
             "fully",
             "completely",
             "all the way"
           ],
-          "value": "100%"
+          "value": "hundred"
         }
       ],
       "matching_strictness": 0.8,
@@ -156,7 +857,590 @@
     }
   },
   "intents": {
-    "openCloseWindow": {
+    "hvacFanSpeed": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "increase"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "one"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "decrease"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "to one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "set"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "by one"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "change"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "two"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want to "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "adjust"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "to two"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "increase"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "by two"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "action",
+              "text": "decrease"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "hvac_fan_speed_value",
+              "slot_name": "value",
+              "text": "three"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        }
+      ]
+    },
+    "hvacTemperature": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "increase"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "one"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "decrease"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "to one"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "set"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "by one"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "change"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "two"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want to "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "adjust"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "to two"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "increase"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "by two"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "action",
+              "text": "decrease"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "hvac_temperature_value",
+              "slot_name": "value",
+              "text": "three"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        }
+      ]
+    },
+    "mediaPlayer": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "play"
+            },
+            {
+              "text": " the media player"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "start"
+            },
+            {
+              "text": " the music"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "resume"
+            },
+            {
+              "text": " the media player"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "pause"
+            },
+            {
+              "text": " the music"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to "
+            },
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "stop"
+            },
+            {
+              "text": " the media player"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "play"
+            },
+            {
+              "text": " the music"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "media_player_action",
+              "slot_name": "action",
+              "text": "start"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "media_player_value",
+              "slot_name": "value",
+              "text": "next"
+            },
+            {
+              "text": " song"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "skip to the "
+            },
+            {
+              "entity": "media_player_value",
+              "slot_name": "value",
+              "text": "previous"
+            },
+            {
+              "text": " track"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "go back to the "
+            },
+            {
+              "entity": "media_player_value",
+              "slot_name": "value",
+              "text": "next"
+            },
+            {
+              "text": " track"
+            }
+          ]
+        }
+      ]
+    },
+    "turnSignal": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "turn on the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "left"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "activate the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "left side"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "switch on the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "right"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please turn on the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "right side"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please activate the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "left"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want to turn on the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "left side"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you switch on the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "right"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "set the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "right side"
+            },
+            {
+              "text": " turn signal to on"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "put on the "
+            },
+            {
+              "entity": "turn_signal_direction",
+              "slot_name": "direction",
+              "text": "left"
+            },
+            {
+              "text": " turn signal"
+            }
+          ]
+        }
+      ]
+    },
+    "window": {
       "utterances": [
         {
           "data": [
@@ -197,9 +1481,12 @@
               "text": " window "
             },
             {
-              "entity": "window_percentage",
-              "slot_name": "percentage",
-              "text": "10%"
+              "entity": "window_value",
+              "slot_name": "value",
+              "text": "ten"
+            },
+            {
+              "text": " percent"
             }
           ]
         },
@@ -225,9 +1512,9 @@
               "text": " window "
             },
             {
-              "entity": "window_percentage",
-              "slot_name": "percentage",
-              "text": "about 10%"
+              "entity": "window_value",
+              "slot_name": "value",
+              "text": "about ten"
             }
           ]
         },
@@ -276,16 +1563,19 @@
               "text": " window "
             },
             {
-              "entity": "window_percentage",
-              "slot_name": "percentage",
-              "text": "by 10%"
+              "entity": "window_value",
+              "slot_name": "value",
+              "text": "by ten"
+            },
+            {
+              "text": " percent"
             }
           ]
         },
         {
           "data": [
             {
-              "text": "I want to "
+              "text": "i want to "
             },
             {
               "entity": "window_action",
@@ -304,16 +1594,19 @@
               "text": " window "
             },
             {
-              "entity": "window_percentage",
-              "slot_name": "percentage",
-              "text": "20%"
+              "entity": "window_value",
+              "slot_name": "value",
+              "text": "twenty"
+            },
+            {
+              "text": " percent"
             }
           ]
         },
         {
           "data": [
             {
-              "text": "I would like to "
+              "text": "i would like to "
             },
             {
               "entity": "window_action",
@@ -332,9 +1625,12 @@
               "text": " window "
             },
             {
-              "entity": "window_percentage",
-              "slot_name": "percentage",
-              "text": "about 20%"
+              "entity": "window_value",
+              "slot_name": "value",
+              "text": "about twenty"
+            },
+            {
+              "text": " percent"
             }
           ]
         },
@@ -360,9 +1656,12 @@
               "text": " window "
             },
             {
-              "entity": "window_percentage",
-              "slot_name": "percentage",
-              "text": "by 20%"
+              "entity": "window_value",
+              "slot_name": "value",
+              "text": "by twenty"
+            },
+            {
+              "text": " percent"
             }
           ]
         }

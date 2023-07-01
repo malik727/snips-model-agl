@@ -1,3 +1,6 @@
+# -x-x-x-x- Car Window Entities -x-x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
 # Window Action Entity
 ---
 type: entity
@@ -24,23 +27,196 @@ values:
   - [rear_right, rear right, back right]
 
 
-# Window Percentage Entity
+# Window Value Entity
 ---
 type: entity
-name: window_percentage
+name: window_value
 automatically_extensible: false
 use_synonyms: true
 matching_strictness: 0.8
 values:
-  - [10%, about 10%, by 10%]
-  - [20%, about 20%, by 20%]
-  - [25%, about 25%, by 25%, partially, little bit]
-  - [30%, about 30%, by 30%]
-  - [40%, about 40%, by 40%]
-  - [50%, about 50%, by 50%, halfway, half]
-  - [60%, about 60%, by 60%]
-  - [70%, about 70%, by 70%]
-  - [75%, about 75%, by 75%]
-  - [80%, about 80%, by 80%]
-  - [90%, about 90%, by 90%]
-  - [100%, about 100%, by 100%, fully, completely, all the way]
+  - [ten, about ten, by ten]
+  - [twenty, about twenty, by twenty]
+  - [twenty five, about twenty five, by twenty five, partially, little bit]
+  - [thirty, about thirty, by thirty]
+  - [fourty, about fourty, by fourty]
+  - [fifty, about fifty, by fifty, halfway, half]
+  - [sixty, about sixty, by sixty]
+  - [seventy, about seventy, by seventy]
+  - [seventy five, about seventy five, by seventy five, three quarters]
+  - [eighty, about eighty, by eighty]
+  - [ninety, about ninety, by ninety]
+  - [hundred, about hundred, by hundred, fully, completely, all the way]
+
+
+# -x- Dashboard Turn Signal Entities  -x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+# Turn Signal Direction Entity
+---
+type: entity
+name: turn_signal_direction
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [left, left side]
+  - [right, right side]
+
+
+# -x-x-  HVAC Temperature Entities  -x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+# HVAC Temperature Action Entity
+---
+type: entity
+name: hvac_temperature_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - increase
+  - decrease
+  - [set, change, adjust]
+
+# HVAC Temperature Value Entity
+---
+type: entity
+name: hvac_temperature_value
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [one, to one, by one]
+  - [two, to two, by two]
+  - [three, to three, by three]
+  - [four, to four, by four]
+  - [five, to five, by five]
+  - [six, to six, by six]
+  - [seven, to seven, by seven]
+  - [eight, to eight, by eight]
+  - [nine, to nine, by nine]
+  - [ten, to ten, by ten]
+  - [eleven, to eleven, by eleven]
+  - [twelve, to twelve, by twelve]
+  - [thirteen, to thirteen, by thirteen]
+  - [fourteen, to fourteen, by fourteen]
+  - [fifteen, to fifteen, by fifteen]
+  - [sixteen, to sixteen, by sixteen]
+  - [seventeen, to seventeen, by seventeen]
+  - [eighteen, to eighteen, by eighteen]
+  - [nineteen, to nineteen, by nineteen]
+  - [twenty, to twenty, by twenty]
+  - [twenty one, to twenty one, by twenty one]
+  - [twenty two, to twenty two, by twenty two]
+  - [twenty three, to twenty three, by twenty three]
+  - [twenty four, to twenty four, by twenty four]
+  - [twenty five, to twenty five, by twenty five]
+  - [twenty six, to twenty six, by twenty six]
+  - [twenty seven, to twenty seven, by twenty seven]
+  - [twenty eight, to twenty eight, by twenty eight]
+  - [twenty nine, to twenty nine, by twenty nine]
+  - [thirty, to thirty, by thirty]
+  - [thirty one, to thirty one, by thirty one]
+  - [thirty two, to thirty two, by thirty two]
+  - [thirty three, to thirty three, by thirty three]
+  - [thirty four, to thirty four, by thirty four]
+  - [thirty five, to thirty five, by thirty five]
+  - [thirty six, to thirty six, by thirty six]
+  - [thirty seven, to thirty seven, by thirty seven]
+  - [thirty eight, to thirty eight, by thirty eight]
+  - [thirty nine, to thirty nine, by thirty nine]
+  - [fourty, to fourty, by fourty]
+  - [fourty one, to fourty one, by fourty one]
+  - [fourty two, to fourty two, by fourty two]
+  - [fourty three, to fourty three, by fourty three]
+  - [fourty four, to fourty four, by fourty four]
+  - [fourty five, to fourty five, by fourty five]
+  - [fourty six, to fourty six, by fourty six]
+  - [fourty seven, to fourty seven, by fourty seven]
+  - [fourty eight, to fourty eight, by fourty eight]
+  - [fourty nine, to fourty nine, by fourty nine]
+  - [fifty, to fifty, by fifty, halfway, half]
+  - [sixty, to sixty, by sixty]
+  - [seventy, to seventy, by seventy]
+  - [seventy five, to seventy five, by seventy five, three quarters]
+  - [eighty, to eighty, by eighty]
+  - [ninety, to ninety, by ninety]
+  - [hundred, to hundred, by hundred, fully, completely, all the way, max]
+
+
+# -x-x-x- HVAC Fan Speed Entities -x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+# HVAC Fan Speed Action Entity
+---
+type: entity
+name: hvac_fan_speed_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - increase
+  - decrease
+  - [set, change, adjust]
+
+# HVAC Fan Speed Value Entity
+---
+type: entity
+name: hvac_fan_speed_value
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [one, to one, by one]
+  - [two, to two, by two]
+  - [three, to three, by three]
+  - [four, to four, by four]
+  - [five, to five, by five]
+  - [six, to six, by six]
+  - [seven, to seven, by seven]
+  - [eight, to eight, by eight]
+  - [nine, to nine, by nine]
+  - [ten, to ten, by ten]
+  - [eleven, to eleven, by eleven]
+  - [twelve, to twelve, by twelve]
+  - [thirteen, to thirteen, by thirteen]
+  - [fourteen, to fourteen, by fourteen]
+  - [fifteen, to fifteen, by fifteen]
+  - [twenty, to twenty, by twenty]
+  - [twenty five, to twenty five, by twenty five]
+  - [thirty, to thirty, by thirty]
+  - [fourty, to fourty, by fourty]
+  - [fifty, to fifty, by fifty, halfway, half]
+  - [sixty, to sixty, by sixty]
+  - [seventy, to seventy, by seventy]
+  - [seventy five, to seventy five, by seventy five, three quarters]
+  - [eighty, to eighty, by eighty]
+  - [ninety, to ninety, by ninety]
+  - [hundred, to hundred, by hundred, fully, completely, all the way, max]
+
+
+# -x-x-x-  Media Player Entities  -x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+# Media Player Action Entity
+---
+type: entity
+name: media_player_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [play, start, resume]
+  - [pause, stop]
+
+# Media Player Value Entity
+---
+type: entity
+name: media_player_value
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - next
+  - previous

@@ -1,0 +1,273 @@
+{
+  "config": {
+    "ignore_stop_words": true,
+    "unit_name": "lookup_intent_parser"
+  },
+  "entity_scopes": [
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "hvac_fan_speed_action",
+          "hvac_fan_speed_value"
+        ]
+      },
+      "intent_group": [
+        "hvacFanSpeed"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "hvac_temperature_action",
+          "hvac_temperature_value"
+        ]
+      },
+      "intent_group": [
+        "hvacTemperature"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "media_player_value",
+          "media_player_action"
+        ]
+      },
+      "intent_group": [
+        "mediaPlayer"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "turn_signal_direction"
+        ]
+      },
+      "intent_group": [
+        "turnSignal"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "window_value",
+          "window_action",
+          "window_name"
+        ]
+      },
+      "intent_group": [
+        "window"
+      ]
+    }
+  ],
+  "intents_names": [
+    "hvacFanSpeed",
+    "hvacTemperature",
+    "mediaPlayer",
+    "turnSignal",
+    "window"
+  ],
+  "language_code": "en",
+  "map": {
+    "-2010449895": [
+      2,
+      [
+        1
+      ]
+    ],
+    "-1929877039": [
+      3,
+      [
+        2
+      ]
+    ],
+    "-1898264922": [
+      4,
+      [
+        0,
+        3,
+        1
+      ]
+    ],
+    "-1822294449": [
+      3,
+      [
+        2
+      ]
+    ],
+    "-1758905257": [
+      1,
+      [
+        0,
+        1
+      ]
+    ],
+    "-1668188219": [
+      3,
+      [
+        2
+      ]
+    ],
+    "-1421084048": [
+      3,
+      [
+        2
+      ]
+    ],
+    "-1200043958": [
+      2,
+      [
+        0
+      ]
+    ],
+    "-1182799724": [
+      3,
+      [
+        2
+      ]
+    ],
+    "-871437645": [
+      1,
+      [
+        0,
+        1
+      ]
+    ],
+    "-708934222": [
+      4,
+      [
+        0,
+        3,
+        1
+      ]
+    ],
+    "-579594663": [
+      2,
+      [
+        0,
+        1
+      ]
+    ],
+    "-277993806": [
+      4,
+      [
+        0,
+        3
+      ]
+    ],
+    "-176897425": [
+      2,
+      [
+        0
+      ]
+    ],
+    "29377667": [
+      4,
+      [
+        0,
+        3,
+        1
+      ]
+    ],
+    "184304976": [
+      4,
+      [
+        0,
+        3,
+        1
+      ]
+    ],
+    "451746228": [
+      1,
+      [
+        0,
+        1
+      ]
+    ],
+    "659495092": [
+      0,
+      [
+        0,
+        1
+      ]
+    ],
+    "674242868": [
+      1,
+      [
+        0,
+        1
+      ]
+    ],
+    "851757725": [
+      2,
+      [
+        0
+      ]
+    ],
+    "1064157629": [
+      3,
+      [
+        2
+      ]
+    ],
+    "1122395736": [
+      0,
+      [
+        0,
+        1
+      ]
+    ],
+    "1427067114": [
+      0,
+      [
+        0,
+        1
+      ]
+    ],
+    "1561557430": [
+      2,
+      [
+        0
+      ]
+    ],
+    "1578404264": [
+      3,
+      [
+        2
+      ]
+    ],
+    "1868837911": [
+      0,
+      [
+        0,
+        1
+      ]
+    ],
+    "1919251070": [
+      4,
+      [
+        0,
+        3,
+        1
+      ]
+    ],
+    "2092634805": [
+      2,
+      [
+        1
+      ]
+    ]
+  },
+  "slots_names": [
+    "action",
+    "value",
+    "direction",
+    "name"
+  ],
+  "stop_words_whitelist": {}
+}
