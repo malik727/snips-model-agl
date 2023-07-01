@@ -1,0 +1,13 @@
+snips-nlu generate-dataset en entities.yaml intents.yaml > dataset.json
+
+-------------------------------------------------------------------------
+
+import io, json
+from snips_nlu import SnipsNLUEngine
+from snips_nlu.default_configs import CONFIG_EN
+with io.open("dataset.json") as f:
+    dataset = json.load(f)
+
+nlu_engine = SnipsNLUEngine(config=CONFIG_EN)
+nlu_engine = nlu_engine.fit(dataset)
+print(json.dumps(nlu_engine.parse("can you roll down drivers window 20%"), indent=2))

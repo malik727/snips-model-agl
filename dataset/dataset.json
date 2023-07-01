@@ -1,0 +1,373 @@
+{
+  "entities": {
+    "window_action": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "roll down",
+            "up"
+          ],
+          "value": "open"
+        },
+        {
+          "synonyms": [
+            "roll up",
+            "down"
+          ],
+          "value": "close"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "window_name": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "drivers",
+            "driver side"
+          ],
+          "value": "driver"
+        },
+        {
+          "synonyms": [
+            "passengers",
+            "passenger side"
+          ],
+          "value": "passenger"
+        },
+        {
+          "synonyms": [
+            "rear left",
+            "back left"
+          ],
+          "value": "rear_left"
+        },
+        {
+          "synonyms": [
+            "rear right",
+            "back right"
+          ],
+          "value": "rear_right"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "window_percentage": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "about 10%",
+            "by 10%"
+          ],
+          "value": "10%"
+        },
+        {
+          "synonyms": [
+            "about 20%",
+            "by 20%"
+          ],
+          "value": "20%"
+        },
+        {
+          "synonyms": [
+            "about 25%",
+            "by 25%",
+            "partially",
+            "little bit"
+          ],
+          "value": "25%"
+        },
+        {
+          "synonyms": [
+            "about 30%",
+            "by 30%"
+          ],
+          "value": "30%"
+        },
+        {
+          "synonyms": [
+            "about 40%",
+            "by 40%"
+          ],
+          "value": "40%"
+        },
+        {
+          "synonyms": [
+            "about 50%",
+            "by 50%",
+            "halfway",
+            "half"
+          ],
+          "value": "50%"
+        },
+        {
+          "synonyms": [
+            "about 60%",
+            "by 60%"
+          ],
+          "value": "60%"
+        },
+        {
+          "synonyms": [
+            "about 70%",
+            "by 70%"
+          ],
+          "value": "70%"
+        },
+        {
+          "synonyms": [
+            "about 75%",
+            "by 75%"
+          ],
+          "value": "75%"
+        },
+        {
+          "synonyms": [
+            "about 80%",
+            "by 80%"
+          ],
+          "value": "80%"
+        },
+        {
+          "synonyms": [
+            "about 90%",
+            "by 90%"
+          ],
+          "value": "90%"
+        },
+        {
+          "synonyms": [
+            "about 100%",
+            "by 100%",
+            "fully",
+            "completely",
+            "all the way"
+          ],
+          "value": "100%"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "openCloseWindow": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "open"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "driver"
+            },
+            {
+              "text": " window"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "roll down"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "drivers"
+            },
+            {
+              "text": " window "
+            },
+            {
+              "entity": "window_percentage",
+              "slot_name": "percentage",
+              "text": "10%"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "up"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "driver side"
+            },
+            {
+              "text": " window "
+            },
+            {
+              "entity": "window_percentage",
+              "slot_name": "percentage",
+              "text": "about 10%"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "close"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "passenger"
+            },
+            {
+              "text": " window"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "roll up"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "passengers"
+            },
+            {
+              "text": " window "
+            },
+            {
+              "entity": "window_percentage",
+              "slot_name": "percentage",
+              "text": "by 10%"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to "
+            },
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "down"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "passenger side"
+            },
+            {
+              "text": " window "
+            },
+            {
+              "entity": "window_percentage",
+              "slot_name": "percentage",
+              "text": "20%"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I would like to "
+            },
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "open"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "rear_left"
+            },
+            {
+              "text": " window "
+            },
+            {
+              "entity": "window_percentage",
+              "slot_name": "percentage",
+              "text": "about 20%"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "window_action",
+              "slot_name": "action",
+              "text": "roll down"
+            },
+            {
+              "text": " the "
+            },
+            {
+              "entity": "window_name",
+              "slot_name": "name",
+              "text": "rear left"
+            },
+            {
+              "text": " window "
+            },
+            {
+              "entity": "window_percentage",
+              "slot_name": "percentage",
+              "text": "by 20%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

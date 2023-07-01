@@ -1,0 +1,139 @@
+# Car Window Intent
+---
+type: intent
+name: window
+slots:
+  - name: action
+    entity: window_action
+  - name: name
+    entity: window_name
+  - name: percentage
+    entity: window_percentage
+utterances:
+  - "[action] the [name] window"
+  - "[action] the [name] window [percentage]"
+  - can you please [action] the [name] window [percentage]
+  - please [action] the [name] window
+  - please [action] the [name] window [percentage]
+  - I want to [action] the [name] window [percentage]
+  - I would like to [action] the [name] window [percentage]
+  - could you [action] the [name] window [percentage]
+ 
+
+# Dashboard Turn Signals Intent
+---
+type: intent
+name: turnSignal
+slots:
+  - name: direction
+    entity: turn_signal_direction
+utterances:
+  - turn on the [direction] turn signal
+  - activate the [direction] turn signal
+  - switch on the [direction] turn signal
+  - can you please turn on the [direction] turn signal
+  - please activate the [direction] turn signal
+  - I want to turn on the [direction] turn signal
+  - could you switch on the [direction] turn signal
+  - set the [direction] turn signal to on
+  - put on the [direction] turn signal
+ 
+ 
+# HVAC Temperature Intent
+---
+type: intent
+name: hvacTemperature
+slots:
+  - name: action
+    entity: hvac_temperature_action
+  - name: value
+    entity: hvac_temperature_value
+utterances:
+  - set the temperature to [value] degrees celsius
+  - change the temperature to [value] degrees
+  - adjust the temperature to [value] degrees celsius
+  - can you please set the temperature to [value] degrees
+  - please change the temperature to [value] degrees celsius
+  - I want to adjust the temperature to [value] degrees
+  - could you set the temperature to [value] degrees celsius
+  - "[action] the temperature to [value] degrees"
+  - "[action] the temperature by [value] degrees"
+
+
+# HVAC Fan Speed Intent
+---
+type: intent
+name: hvacFanSpeed
+slots:
+  - name: action
+    entity: hvac_fan_speed_action
+  - name: value
+    entity: hvac_fan_speed_value
+utterances:
+  - set the fan speed to [value] percent
+  - change the fan speed to [value]
+  - adjust the fan speed to [value] percent
+  - can you please set the fan speed to [value] percent
+  - please change the fan speed to [value]
+  - I want to adjust the fan speed to [value] percent
+  - could you set the fan speed to [value] percent
+  - "[action] the fan speed to [value] percent"
+  - "[action] the fan speed by [value] percent"
+
+
+# Media Player Intent
+---
+type: intent
+name: mediaPlayer
+slots:
+  - name: action
+    entity: media_player_action
+  - name: value
+    entity: media_player_value
+utterances:
+  - "[action] the media player"
+  - "[action] the music"
+  - can you please [action] the media player
+  - please [action] the music
+  - I want to [action] the media player
+  - could you [action] the music
+  - "[action] the [value] song"
+  - "[action] the [value] song"
+  - skip to the [value] track
+  - go back to the [value] track
+
+
+# Navigation Intent
+---
+type: intent
+name: navigation
+slots:
+  - name: action
+    entity: navigation_action
+  - name: origin
+    entity: navigation_origin
+  - name: destination
+    entity: navigation_destination
+  - name: stops
+    entity: navigation_stops
+utterances:
+  - "[action] navigation"
+  - can you please [action] the navigation
+  - please [action] navigation
+  - I want to [action] navigation
+  - could you [action] navigation
+  - start navigation to [destination]
+  - navigate to [destination]
+  - go to [destination]
+  - direct me to [destination]
+  - take me to [destination]
+  - navigate from [origin] to [destination]
+  - route me from [origin] to [destination]
+  - plan a trip from [origin] to [destination]
+  - stop navigation
+  - cancel navigation
+  - end navigation
+  - abort navigation
+  - add a stop at [stop]
+  - include [stop] in the route
+  - add [stop] as a waypoint

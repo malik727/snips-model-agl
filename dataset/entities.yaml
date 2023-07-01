@@ -32,15 +32,15 @@ automatically_extensible: false
 use_synonyms: true
 matching_strictness: 0.8
 values:
-  - 10%
-  - 20%
-  - [25%, partially, little bit]
-  - 30%
-  - 40%
-  - [50%, halfway, half]
-  - 60%
-  - 70%
-  - 75%
-  - 80%
-  - 90%
-  - [100%, fully, completely, all the way]
+  - [10%, about 10%, by 10%]
+  - [20%, about 20%, by 20%]
+  - [25%, about 25%, by 25%, partially, little bit]
+  - [30%, about 30%, by 30%]
+  - [40%, about 40%, by 40%]
+  - [50%, about 50%, by 50%, halfway, half]
+  - [60%, about 60%, by 60%]
+  - [70%, about 70%, by 70%]
+  - [75%, about 75%, by 75%]
+  - [80%, about 80%, by 80%]
+  - [90%, about 90%, by 90%]
+  - [100%, about 100%, by 100%, fully, completely, all the way]

@@ -1,5 +1,6 @@
 pyenv/
 env/
+venv/
 .cache/
 .idea/
 .vscode/
