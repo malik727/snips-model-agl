@@ -25,20 +25,32 @@
       "entity_parser": "parser_6"
     },
     {
-      "entity_identifier": "turn_signal_direction",
+      "entity_identifier": "navigation_action",
       "entity_parser": "parser_7"
     },
     {
-      "entity_identifier": "window_action",
+      "entity_identifier": "navigation_destination",
       "entity_parser": "parser_8"
     },
     {
-      "entity_identifier": "window_name",
+      "entity_identifier": "navigation_origin",
       "entity_parser": "parser_9"
     },
     {
-      "entity_identifier": "window_value",
+      "entity_identifier": "turn_signal_direction",
       "entity_parser": "parser_10"
+    },
+    {
+      "entity_identifier": "window_action",
+      "entity_parser": "parser_11"
+    },
+    {
+      "entity_identifier": "window_name",
+      "entity_parser": "parser_12"
+    },
+    {
+      "entity_identifier": "window_value",
+      "entity_parser": "parser_13"
     }
   ]
 }

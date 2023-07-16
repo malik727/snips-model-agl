@@ -99,36 +99,27 @@ utterances:
 
 
 # Navigation Intent
-# ---
-# type: intent
-# name: navigation
-# slots:
-#   - name: action
-#     entity: navigation_action
-#   - name: origin
-#     entity: navigation_origin
-#   - name: destination
-#     entity: navigation_destination
-#   - name: stops
-#     entity: navigation_stops
-# utterances:
-#   - "[action] navigation"
-#   - can you please [action] the navigation
-#   - please [action] navigation
-#   - I want to [action] navigation
-#   - could you [action] navigation
-#   - start navigation to [destination]
-#   - navigate to [destination]
-#   - go to [destination]
-#   - direct me to [destination]
-#   - take me to [destination]
-#   - navigate from [origin] to [destination]
-#   - route me from [origin] to [destination]
-#   - plan a trip from [origin] to [destination]
-#   - stop navigation
-#   - cancel navigation
-#   - end navigation
-#   - abort navigation
-#   - add a stop at [stop]
-#   - include [stop] in the route
-#   - add [stop] as a waypoint
+---
+type: intent
+name: navigation
+slots:
+  - name: action
+    entity: navigation_action
+  - name: origin
+    entity: navigation_origin
+  - name: destination
+    entity: navigation_destination
+utterances:
+  - "[action] navigation to [destination](mcdonalds, street five)"
+  - "[action] navigation from [origin](mayfair block, street five) to [destination]"
+  - can you please [action] the navigation
+  - please [action] navigation
+  - I want to [action] navigation
+  - could you [action] navigation
+  - navigate to [destination]
+  - direct me to [destination]
+  - take me to [destination]
+  - navigate from [origin] to [destination]
+  - route me from [origin] to [destination]
+  - plan a trip from [origin] to [destination]
+  - "[action] navigation"

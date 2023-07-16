@@ -198,12 +198,16 @@
       "slot_filler_name": "slot_filler_2"
     },
     {
-      "intent": "turnSignal",
+      "intent": "navigation",
       "slot_filler_name": "slot_filler_3"
     },
     {
-      "intent": "window",
+      "intent": "turnSignal",
       "slot_filler_name": "slot_filler_4"
+    },
+    {
+      "intent": "window",
+      "slot_filler_name": "slot_filler_5"
     }
   ]
 }

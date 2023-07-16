@@ -215,6 +215,15 @@
       "media_player_value": {
         "automatically_extensible": false
       },
+      "navigation_action": {
+        "automatically_extensible": false
+      },
+      "navigation_destination": {
+        "automatically_extensible": true
+      },
+      "navigation_origin": {
+        "automatically_extensible": true
+      },
       "turn_signal_direction": {
         "automatically_extensible": false
       },
@@ -241,6 +250,11 @@
       "mediaPlayer": {
         "action": "media_player_action",
         "value": "media_player_value"
+      },
+      "navigation": {
+        "action": "navigation_action",
+        "destination": "navigation_destination",
+        "origin": "navigation_origin"
       },
       "turnSignal": {
         "direction": "turn_signal_direction"

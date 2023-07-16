@@ -681,6 +681,39 @@
       "matching_strictness": 0.8,
       "use_synonyms": true
     },
+    "navigation_action": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "begin",
+            "resume"
+          ],
+          "value": "start"
+        },
+        {
+          "synonyms": [
+            "end",
+            "cancel"
+          ],
+          "value": "stop"
+        }
+      ],
+      "matching_strictness": 0.8,
+      "use_synonyms": true
+    },
+    "navigation_destination": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "navigation_origin": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
     "turn_signal_direction": {
       "automatically_extensible": false,
       "data": [
@@ -1296,6 +1329,220 @@
             },
             {
               "text": " track"
+            }
+          ]
+        }
+      ]
+    },
+    "navigation": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "start"
+            },
+            {
+              "text": " navigation to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "begin"
+            },
+            {
+              "text": " navigation from "
+            },
+            {
+              "entity": "navigation_origin",
+              "slot_name": "origin",
+              "text": "mayfair block, street five"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "resume"
+            },
+            {
+              "text": " the navigation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "stop"
+            },
+            {
+              "text": " navigation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to "
+            },
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "end"
+            },
+            {
+              "text": " navigation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "cancel"
+            },
+            {
+              "text": " navigation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "navigate to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "direct me to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "take me to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "navigate from "
+            },
+            {
+              "entity": "navigation_origin",
+              "slot_name": "origin",
+              "text": "mayfair block, street five"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "route me from "
+            },
+            {
+              "entity": "navigation_origin",
+              "slot_name": "origin",
+              "text": "mayfair block, street five"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "plan a trip from "
+            },
+            {
+              "entity": "navigation_origin",
+              "slot_name": "origin",
+              "text": "mayfair block, street five"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "navigation_destination",
+              "slot_name": "destination",
+              "text": "mcdonalds, street five"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "navigation_action",
+              "slot_name": "action",
+              "text": "start"
+            },
+            {
+              "text": " navigation"
             }
           ]
         }

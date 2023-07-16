@@ -220,3 +220,41 @@ matching_strictness: 0.8
 values:
   - next
   - previous
+
+
+# -x-x-x-x- Navigation Entities -x-x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+# Navigation Action Entity
+---
+type: entity
+name: navigation_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [start, begin, resume]
+  - [stop, end, cancel]
+
+
+# Navigation Origin Entity
+---
+type: entity
+use_synonyms: true
+name: navigation_origin
+value:
+  - [home, my home, my house, my place]
+  - [work, my work, my office, my workplace, my job]
+  - [school, my school, my university, my college, my campus]
+  - "street abc, city xyz, country 123"
+
+# Navigation Destination Entity
+---
+type: entity
+use_synonyms: true
+name: navigation_destination
+value:
+  - [home, my home, my house, my place]
+  - [work, my work, my office, my workplace, my job]
+  - [school, my school, my university, my college, my campus]
+  - "street def, city hij, country 456"

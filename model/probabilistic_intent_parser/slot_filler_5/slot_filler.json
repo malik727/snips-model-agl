@@ -101,7 +101,9 @@
       {
         "args": {
           "entities": [
-            "turn_signal_direction"
+            "window_value",
+            "window_name",
+            "window_action"
           ],
           "entity_filter": {
             "automatically_extensible": false
@@ -176,9 +178,11 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "turnSignal",
+  "intent": "window",
   "language_code": "en",
   "slot_name_mapping": {
-    "direction": "turn_signal_direction"
+    "action": "window_action",
+    "name": "window_name",
+    "value": "window_value"
   }
 }
