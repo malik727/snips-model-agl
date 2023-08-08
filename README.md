@@ -1,6 +1,6 @@
-# NLU Intent Engine for Vehicles
+# Snips NLU Intent Engine Model for Vehicles
 
-This project provides dataset and a pre-trained model of NLU Intent Engine for vehicles, allowing users to control various aspects of their vehicle using natural language commands. The NLU Intent Engine is built using the Snips NLU (Natural Language Understanding) engine and is designed to understand and respond to specific intents related to dashboard controls, HVAC settings, media playback, navigation, and volume control.
+This project provides a dataset and a pre-trained NLU Intent Engine model for vehicles, allowing users to control various aspects of their vehicle using natural language commands. The NLU Intent Engine is built using the Snips NLU (Natural Language Understanding) engine and is designed to understand and respond to specific intents related to dashboard controls, HVAC settings, media playback, navigation, and volume control.
 
 ## Features
 
@@ -30,20 +30,20 @@ To train the NLU Intent Engine model, a pre-processing step is required to conve
 
 ## Getting Started
 
-To set up the NLU Intent Engine, follow these steps:
+To set up the Snips NLU Intent Engine, follow these steps:
 
 1. Clone this repository to your local machine.
 
-2. Install and set up the [`nlu-inference-agl`](https://github.com/malik727/nlu-inference-agl) module on your local machine. This module is an extension of the original Snips NLU with upgraded Python support and is specifically designed for inference purposes only.
+2. Install and set up the [`nlu-inference-agl`](https://github.com/malik727/snips-inference-agl) module on your local machine. This module is an extension of the original Snips NLU with upgraded Python support and is specifically designed for inference purposes only.
 
-3. Once you have the [`nlu-inference-agl`](https://github.com/malik727/nlu-inference-agl) module installed, you can load the pre-trained model located in the model/ folder. This model contains the trained data and parameters necessary for intent extraction. You can use the following command to process commands and extract the associated intents:
+3. Once you have the [`nlu-inference-agl`](https://github.com/malik727/snips-inference-agl) module installed, you can load the pre-trained model located in the model/ folder. This model contains the trained data and parameters necessary for intent extraction. You can use the following command to process commands and extract the associated intents:
     ```
     $ nlu-inference-agl parse path/to/model -q "your command here"
     ```
 
 ## Usage
 
-Once the NLU Intent Engine is set up and running, you can interact with it by speaking natural language commands related to the supported intents. The NLU Intent Engine will process the commands and perform the requested actions accordingly.
+Once the Snips NLU Intent Engine is set up and running, you can interact with it by speaking natural language commands related to the supported intents. The NLU Intent Engine will process the commands and perform the requested actions accordingly.
 
 Here are a few example commands you can try:
 
@@ -69,7 +69,7 @@ Then run the following command to re-train the model:
 $ nlu-sdk-agl train path/to/dataset.json path/to/model
 ```
 
-Finally, you can use the [`nlu-inference-agl`](https://github.com/malik727/nlu-inference-agl) module to to process commands and extract the associated intents.
+Finally, you can use the [`nlu-inference-agl`](https://github.com/malik727/snips-inference-agl) module to process commands and extract the associated intents.
  
 ## Limitations
 
