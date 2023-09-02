@@ -34,11 +34,11 @@ To set up the Snips NLU Intent Engine, follow these steps:
 
 1. Clone this repository to your local machine.
 
-2. Install and set up the [`nlu-inference-agl`](https://github.com/malik727/snips-inference-agl) module on your local machine. This module is an extension of the original Snips NLU with upgraded Python support and is specifically designed for inference purposes only.
+2. Install and set up the [`snips-inference-agl`](https://github.com/malik727/snips-inference-agl) module on your local machine. This module is an extension of the original Snips NLU with upgraded Python support and is specifically designed for inference purposes only.
 
-3. Once you have the [`nlu-inference-agl`](https://github.com/malik727/snips-inference-agl) module installed, you can load the pre-trained model located in the model/ folder. This model contains the trained data and parameters necessary for intent extraction. You can use the following command to process commands and extract the associated intents:
+3. Once you have the [`snips-inference-agl`](https://github.com/malik727/snips-inference-agl) module installed, you can load the pre-trained model located in the model/ folder. This model contains the trained data and parameters necessary for intent extraction. You can use the following command to process commands and extract the associated intents:
     ```
-    $ nlu-inference-agl parse path/to/model -q "your command here"
+    $ snips-inference parse path/to/model -q "your command here"
     ```
 
 ## Usage
@@ -57,19 +57,19 @@ Here are a few example commands you can try:
 
 ## Customization
 
-To customize the NLU Intent Engine for your specific use case, you can modify the dataset files `intents.yaml` and `entities.yaml` to add new intents, slots, or entity values. You need to re-generate the dataset if you modify `intent.yaml` or `entities.yaml`, for this purpose you need to install [`nlu-sdk-agl`](https://github.com/malik727/nlu-sdk-agl) module. This module is an extension of the original Snips NLU with upgraded Python support and is specifically designed for data pre-processing and training purposes only. 
+To customize the NLU Intent Engine for your specific use case, you can modify the dataset files `intents.yaml` and `entities.yaml` to add new intents, slots, or entity values. You need to re-generate the dataset if you modify `intent.yaml` or `entities.yaml`, for this purpose you need to install [`snips-sdk-agl`](https://github.com/malik727/snips-sdk-agl) module. This module is an extension of the original Snips NLU with upgraded Python support and is specifically designed for data pre-processing and training purposes only. 
 
 After installation run the following command to generate the updated `dataset.json` file:
 ```
-$ nlu-sdk-agl generate-dataset en entities.yaml intents.yaml > dataset.json
+$ snips-sdk generate-dataset en entities.yaml intents.yaml > dataset.json
 ```
 
 Then run the following command to re-train the model:
 ```
-$ nlu-sdk-agl train path/to/dataset.json path/to/model
+$ snips-sdk train path/to/dataset.json path/to/model
 ```
 
-Finally, you can use the [`nlu-inference-agl`](https://github.com/malik727/snips-inference-agl) module to process commands and extract the associated intents.
+Finally, you can use the [`snips-inference-agl`](https://github.com/malik727/snips-inference-agl) module to process commands and extract the associated intents.
  
 ## Limitations
 
