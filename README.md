@@ -1,20 +1,14 @@
 # Snips NLU Intent Engine Model for Vehicles
 
-This project provides a dataset and a pre-trained NLU Intent Engine model for vehicles, allowing users to control various aspects of their vehicle using natural language commands. The NLU Intent Engine is built using the Snips NLU (Natural Language Understanding) engine and is designed to understand and respond to specific intents related to dashboard controls, HVAC settings, media playback, navigation, and volume control.
+This project provides a dataset and a pre-trained NLU Intent Engine model for vehicles, allowing users to control various aspects of their vehicle using natural language commands. The NLU Intent Engine is built using the Snips NLU (Natural Language Understanding) engine and is designed to understand and respond to specific intents related to dashboard controls, HVAC settings, and volume control.
 
 ## Features
 
 The NLU Intent Engine supports the following intents:
 
-- **Dashboard Turn Signals:** Control the vehicle's turn signals by issuing commands like "Turn on the left turn signal" or "Activate the right turn signal."
-
 - **HVAC Temperature:** Adjust the vehicle's HVAC system temperature by specifying the desired temperature in Celsius, such as "Set the temperature to 22 degrees Celsius."
 
 - **HVAC Fan Speed:** Control the vehicle's HVAC fan speed using percentage values, e.g., "Increase the fan speed to 75 percent" or "Set the fan speed to 50 percent."
-
-- **Media Player:** Control the vehicle's media player with commands like "Play the music," "Pause the track," "Play the previous song," or "Skip to the next track."
-
-- **Navigation:** Interact with the vehicle's navigation system by issuing commands to start navigation, set destinations, add stops, or stop navigation, such as "Navigate to New York City," "Add a stop at a gas station," or "Stop navigation."
 
 - **Volume Control:** Adjust the volume of the vehicle's audio system using commands like "Increase the volume," "Set the volume to 50 percent," or "Mute the sound."
 
@@ -47,11 +41,8 @@ Once the Snips NLU Intent Engine is set up and running, you can interact with it
 
 Here are a few example commands you can try:
 
-- "Turn on the left turn signal."
 - "Set the temperature to 24 degrees Celsius."
 - "Increase the fan speed to 80 percent."
-- "Play some music."
-- "Navigate to the nearest gas station."
 - "Increase the volume."
 - "Set the volume to 60 percent."
 
