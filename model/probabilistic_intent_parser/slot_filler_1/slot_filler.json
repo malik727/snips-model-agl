@@ -102,7 +102,8 @@
         "args": {
           "entities": [
             "hvac_temperature_action",
-            "hvac_temperature_value"
+            "to_or_by",
+            "numeric_value"
           ],
           "entity_filter": {
             "automatically_extensible": false
@@ -177,10 +178,11 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "hvacTemperature",
+  "intent": "HVACTemperature",
   "language_code": "en",
   "slot_name_mapping": {
-    "action": "hvac_temperature_action",
-    "value": "hvac_temperature_value"
+    "hvac_temperature_action": "hvac_temperature_action",
+    "numeric_value": "numeric_value",
+    "to_or_by": "to_or_by"
   }
 }

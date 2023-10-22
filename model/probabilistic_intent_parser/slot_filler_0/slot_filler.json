@@ -101,7 +101,8 @@
       {
         "args": {
           "entities": [
-            "hvac_fan_speed_value",
+            "to_or_by",
+            "numeric_value",
             "hvac_fan_speed_action"
           ],
           "entity_filter": {
@@ -177,10 +178,11 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "hvacFanSpeed",
+  "intent": "HVACFanSpeed",
   "language_code": "en",
   "slot_name_mapping": {
-    "action": "hvac_fan_speed_action",
-    "value": "hvac_fan_speed_value"
+    "hvac_fan_speed_action": "hvac_fan_speed_action",
+    "numeric_value": "numeric_value",
+    "to_or_by": "to_or_by"
   }
 }

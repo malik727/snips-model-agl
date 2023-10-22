@@ -186,28 +186,16 @@
   },
   "slot_fillers": [
     {
-      "intent": "hvacFanSpeed",
+      "intent": "HVACFanSpeed",
       "slot_filler_name": "slot_filler_0"
     },
     {
-      "intent": "hvacTemperature",
+      "intent": "HVACTemperature",
       "slot_filler_name": "slot_filler_1"
     },
     {
-      "intent": "mediaPlayer",
+      "intent": "VolumeControl",
       "slot_filler_name": "slot_filler_2"
-    },
-    {
-      "intent": "navigation",
-      "slot_filler_name": "slot_filler_3"
-    },
-    {
-      "intent": "turnSignal",
-      "slot_filler_name": "slot_filler_4"
-    },
-    {
-      "intent": "window",
-      "slot_filler_name": "slot_filler_5"
     }
   ]
 }

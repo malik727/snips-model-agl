@@ -4,215 +4,29 @@
       "automatically_extensible": false,
       "data": [
         {
-          "synonyms": [],
+          "synonyms": [
+            "up",
+            "boost",
+            "boosting",
+            "raise"
+          ],
           "value": "increase"
         },
         {
-          "synonyms": [],
+          "synonyms": [
+            "down",
+            "reduce",
+            "back",
+            "lower"
+          ],
           "value": "decrease"
         },
         {
           "synonyms": [
-            "change",
-            "adjust"
+            "adjust",
+            "change"
           ],
           "value": "set"
-        }
-      ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "hvac_fan_speed_value": {
-      "automatically_extensible": false,
-      "data": [
-        {
-          "synonyms": [
-            "to one",
-            "by one"
-          ],
-          "value": "one"
-        },
-        {
-          "synonyms": [
-            "to two",
-            "by two"
-          ],
-          "value": "two"
-        },
-        {
-          "synonyms": [
-            "to three",
-            "by three"
-          ],
-          "value": "three"
-        },
-        {
-          "synonyms": [
-            "to four",
-            "by four"
-          ],
-          "value": "four"
-        },
-        {
-          "synonyms": [
-            "to five",
-            "by five"
-          ],
-          "value": "five"
-        },
-        {
-          "synonyms": [
-            "to six",
-            "by six"
-          ],
-          "value": "six"
-        },
-        {
-          "synonyms": [
-            "to seven",
-            "by seven"
-          ],
-          "value": "seven"
-        },
-        {
-          "synonyms": [
-            "to eight",
-            "by eight"
-          ],
-          "value": "eight"
-        },
-        {
-          "synonyms": [
-            "to nine",
-            "by nine"
-          ],
-          "value": "nine"
-        },
-        {
-          "synonyms": [
-            "to ten",
-            "by ten"
-          ],
-          "value": "ten"
-        },
-        {
-          "synonyms": [
-            "to eleven",
-            "by eleven"
-          ],
-          "value": "eleven"
-        },
-        {
-          "synonyms": [
-            "to twelve",
-            "by twelve"
-          ],
-          "value": "twelve"
-        },
-        {
-          "synonyms": [
-            "to thirteen",
-            "by thirteen"
-          ],
-          "value": "thirteen"
-        },
-        {
-          "synonyms": [
-            "to fourteen",
-            "by fourteen"
-          ],
-          "value": "fourteen"
-        },
-        {
-          "synonyms": [
-            "to fifteen",
-            "by fifteen"
-          ],
-          "value": "fifteen"
-        },
-        {
-          "synonyms": [
-            "to twenty",
-            "by twenty"
-          ],
-          "value": "twenty"
-        },
-        {
-          "synonyms": [
-            "to twenty five",
-            "by twenty five"
-          ],
-          "value": "twenty five"
-        },
-        {
-          "synonyms": [
-            "to thirty",
-            "by thirty"
-          ],
-          "value": "thirty"
-        },
-        {
-          "synonyms": [
-            "to fourty",
-            "by fourty"
-          ],
-          "value": "fourty"
-        },
-        {
-          "synonyms": [
-            "to fifty",
-            "by fifty",
-            "halfway",
-            "half"
-          ],
-          "value": "fifty"
-        },
-        {
-          "synonyms": [
-            "to sixty",
-            "by sixty"
-          ],
-          "value": "sixty"
-        },
-        {
-          "synonyms": [
-            "to seventy",
-            "by seventy"
-          ],
-          "value": "seventy"
-        },
-        {
-          "synonyms": [
-            "to seventy five",
-            "by seventy five",
-            "three quarters"
-          ],
-          "value": "seventy five"
-        },
-        {
-          "synonyms": [
-            "to eighty",
-            "by eighty"
-          ],
-          "value": "eighty"
-        },
-        {
-          "synonyms": [
-            "to ninety",
-            "by ninety"
-          ],
-          "value": "ninety"
-        },
-        {
-          "synonyms": [
-            "to hundred",
-            "by hundred",
-            "fully",
-            "completely",
-            "all the way",
-            "max"
-          ],
-          "value": "hundred"
         }
       ],
       "matching_strictness": 0.8,
@@ -222,17 +36,32 @@
       "automatically_extensible": false,
       "data": [
         {
-          "synonyms": [],
+          "synonyms": [
+            "up",
+            "boost",
+            "boosting",
+            "raise",
+            "heat",
+            "warm",
+            "warmer"
+          ],
           "value": "increase"
         },
         {
-          "synonyms": [],
+          "synonyms": [
+            "down",
+            "reduce",
+            "back",
+            "lower",
+            "cool",
+            "colder"
+          ],
           "value": "decrease"
         },
         {
           "synonyms": [
-            "change",
-            "adjust"
+            "adjust",
+            "change"
           ],
           "value": "set"
         }
@@ -240,401 +69,416 @@
       "matching_strictness": 0.8,
       "use_synonyms": true
     },
-    "hvac_temperature_value": {
+    "numeric_value": {
       "automatically_extensible": false,
       "data": [
         {
-          "synonyms": [
-            "to one",
-            "by one"
-          ],
+          "synonyms": [],
+          "value": "zero"
+        },
+        {
+          "synonyms": [],
           "value": "one"
         },
         {
-          "synonyms": [
-            "to two",
-            "by two"
-          ],
+          "synonyms": [],
           "value": "two"
         },
         {
-          "synonyms": [
-            "to three",
-            "by three"
-          ],
+          "synonyms": [],
           "value": "three"
         },
         {
-          "synonyms": [
-            "to four",
-            "by four"
-          ],
+          "synonyms": [],
           "value": "four"
         },
         {
-          "synonyms": [
-            "to five",
-            "by five"
-          ],
+          "synonyms": [],
           "value": "five"
         },
         {
-          "synonyms": [
-            "to six",
-            "by six"
-          ],
+          "synonyms": [],
           "value": "six"
         },
         {
-          "synonyms": [
-            "to seven",
-            "by seven"
-          ],
+          "synonyms": [],
           "value": "seven"
         },
         {
-          "synonyms": [
-            "to eight",
-            "by eight"
-          ],
+          "synonyms": [],
           "value": "eight"
         },
         {
-          "synonyms": [
-            "to nine",
-            "by nine"
-          ],
+          "synonyms": [],
           "value": "nine"
         },
         {
-          "synonyms": [
-            "to ten",
-            "by ten"
-          ],
+          "synonyms": [],
           "value": "ten"
         },
         {
-          "synonyms": [
-            "to eleven",
-            "by eleven"
-          ],
+          "synonyms": [],
           "value": "eleven"
         },
         {
-          "synonyms": [
-            "to twelve",
-            "by twelve"
-          ],
+          "synonyms": [],
           "value": "twelve"
         },
         {
-          "synonyms": [
-            "to thirteen",
-            "by thirteen"
-          ],
+          "synonyms": [],
           "value": "thirteen"
         },
         {
-          "synonyms": [
-            "to fourteen",
-            "by fourteen"
-          ],
+          "synonyms": [],
           "value": "fourteen"
         },
         {
-          "synonyms": [
-            "to fifteen",
-            "by fifteen"
-          ],
+          "synonyms": [],
           "value": "fifteen"
         },
         {
-          "synonyms": [
-            "to sixteen",
-            "by sixteen"
-          ],
+          "synonyms": [],
           "value": "sixteen"
         },
         {
-          "synonyms": [
-            "to seventeen",
-            "by seventeen"
-          ],
+          "synonyms": [],
           "value": "seventeen"
         },
         {
-          "synonyms": [
-            "to eighteen",
-            "by eighteen"
-          ],
+          "synonyms": [],
           "value": "eighteen"
         },
         {
-          "synonyms": [
-            "to nineteen",
-            "by nineteen"
-          ],
+          "synonyms": [],
           "value": "nineteen"
         },
         {
-          "synonyms": [
-            "to twenty",
-            "by twenty"
-          ],
+          "synonyms": [],
           "value": "twenty"
         },
         {
-          "synonyms": [
-            "to twenty one",
-            "by twenty one"
-          ],
+          "synonyms": [],
           "value": "twenty one"
         },
         {
-          "synonyms": [
-            "to twenty two",
-            "by twenty two"
-          ],
+          "synonyms": [],
           "value": "twenty two"
         },
         {
-          "synonyms": [
-            "to twenty three",
-            "by twenty three"
-          ],
+          "synonyms": [],
           "value": "twenty three"
         },
         {
-          "synonyms": [
-            "to twenty four",
-            "by twenty four"
-          ],
+          "synonyms": [],
           "value": "twenty four"
         },
         {
-          "synonyms": [
-            "to twenty five",
-            "by twenty five"
-          ],
+          "synonyms": [],
           "value": "twenty five"
         },
         {
-          "synonyms": [
-            "to twenty six",
-            "by twenty six"
-          ],
+          "synonyms": [],
           "value": "twenty six"
         },
         {
-          "synonyms": [
-            "to twenty seven",
-            "by twenty seven"
-          ],
+          "synonyms": [],
           "value": "twenty seven"
         },
         {
-          "synonyms": [
-            "to twenty eight",
-            "by twenty eight"
-          ],
+          "synonyms": [],
           "value": "twenty eight"
         },
         {
-          "synonyms": [
-            "to twenty nine",
-            "by twenty nine"
-          ],
+          "synonyms": [],
           "value": "twenty nine"
         },
         {
-          "synonyms": [
-            "to thirty",
-            "by thirty"
-          ],
+          "synonyms": [],
           "value": "thirty"
         },
         {
-          "synonyms": [
-            "to thirty one",
-            "by thirty one"
-          ],
+          "synonyms": [],
           "value": "thirty one"
         },
         {
-          "synonyms": [
-            "to thirty two",
-            "by thirty two"
-          ],
+          "synonyms": [],
           "value": "thirty two"
         },
         {
-          "synonyms": [
-            "to thirty three",
-            "by thirty three"
-          ],
+          "synonyms": [],
           "value": "thirty three"
         },
         {
-          "synonyms": [
-            "to thirty four",
-            "by thirty four"
-          ],
+          "synonyms": [],
           "value": "thirty four"
         },
         {
-          "synonyms": [
-            "to thirty five",
-            "by thirty five"
-          ],
+          "synonyms": [],
           "value": "thirty five"
         },
         {
-          "synonyms": [
-            "to thirty six",
-            "by thirty six"
-          ],
+          "synonyms": [],
           "value": "thirty six"
         },
         {
-          "synonyms": [
-            "to thirty seven",
-            "by thirty seven"
-          ],
+          "synonyms": [],
           "value": "thirty seven"
         },
         {
-          "synonyms": [
-            "to thirty eight",
-            "by thirty eight"
-          ],
+          "synonyms": [],
           "value": "thirty eight"
         },
         {
-          "synonyms": [
-            "to thirty nine",
-            "by thirty nine"
-          ],
+          "synonyms": [],
           "value": "thirty nine"
         },
         {
-          "synonyms": [
-            "to fourty",
-            "by fourty"
-          ],
+          "synonyms": [],
           "value": "fourty"
         },
         {
-          "synonyms": [
-            "to fourty one",
-            "by fourty one"
-          ],
+          "synonyms": [],
           "value": "fourty one"
         },
         {
-          "synonyms": [
-            "to fourty two",
-            "by fourty two"
-          ],
+          "synonyms": [],
           "value": "fourty two"
         },
         {
-          "synonyms": [
-            "to fourty three",
-            "by fourty three"
-          ],
+          "synonyms": [],
           "value": "fourty three"
         },
         {
-          "synonyms": [
-            "to fourty four",
-            "by fourty four"
-          ],
+          "synonyms": [],
           "value": "fourty four"
         },
         {
-          "synonyms": [
-            "to fourty five",
-            "by fourty five"
-          ],
+          "synonyms": [],
           "value": "fourty five"
         },
         {
-          "synonyms": [
-            "to fourty six",
-            "by fourty six"
-          ],
+          "synonyms": [],
           "value": "fourty six"
         },
         {
-          "synonyms": [
-            "to fourty seven",
-            "by fourty seven"
-          ],
+          "synonyms": [],
           "value": "fourty seven"
         },
         {
-          "synonyms": [
-            "to fourty eight",
-            "by fourty eight"
-          ],
+          "synonyms": [],
           "value": "fourty eight"
         },
         {
-          "synonyms": [
-            "to fourty nine",
-            "by fourty nine"
-          ],
+          "synonyms": [],
           "value": "fourty nine"
         },
         {
           "synonyms": [
-            "to fifty",
-            "by fifty",
             "halfway",
             "half"
           ],
           "value": "fifty"
         },
         {
-          "synonyms": [
-            "to sixty",
-            "by sixty"
-          ],
+          "synonyms": [],
+          "value": "fifty one"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty two"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty three"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty four"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty five"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty six"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty seven"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty eight"
+        },
+        {
+          "synonyms": [],
+          "value": "fifty nine"
+        },
+        {
+          "synonyms": [],
           "value": "sixty"
         },
         {
-          "synonyms": [
-            "to seventy",
-            "by seventy"
-          ],
+          "synonyms": [],
+          "value": "sixty one"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty two"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty three"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty four"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty five"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty six"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty seven"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty eight"
+        },
+        {
+          "synonyms": [],
+          "value": "sixty nine"
+        },
+        {
+          "synonyms": [],
           "value": "seventy"
         },
         {
+          "synonyms": [],
+          "value": "seventy one"
+        },
+        {
+          "synonyms": [],
+          "value": "seventy two"
+        },
+        {
+          "synonyms": [],
+          "value": "seventy three"
+        },
+        {
+          "synonyms": [],
+          "value": "seventy four"
+        },
+        {
           "synonyms": [
-            "to seventy five",
-            "by seventy five",
             "three quarters"
           ],
           "value": "seventy five"
         },
         {
-          "synonyms": [
-            "to eighty",
-            "by eighty"
-          ],
+          "synonyms": [],
+          "value": "seventy six"
+        },
+        {
+          "synonyms": [],
+          "value": "seventy seven"
+        },
+        {
+          "synonyms": [],
+          "value": "seventy eight"
+        },
+        {
+          "synonyms": [],
+          "value": "seventy nine"
+        },
+        {
+          "synonyms": [],
           "value": "eighty"
         },
         {
-          "synonyms": [
-            "to ninety",
-            "by ninety"
-          ],
+          "synonyms": [],
+          "value": "eighty one"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty two"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty three"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty four"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty five"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty six"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty seven"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty eight"
+        },
+        {
+          "synonyms": [],
+          "value": "eighty nine"
+        },
+        {
+          "synonyms": [],
           "value": "ninety"
         },
         {
+          "synonyms": [],
+          "value": "ninety one"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety two"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety three"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety four"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety five"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety six"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety seven"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety eight"
+        },
+        {
+          "synonyms": [],
+          "value": "ninety nine"
+        },
+        {
           "synonyms": [
-            "to hundred",
-            "by hundred",
             "fully",
             "completely",
             "all the way",
@@ -646,243 +490,47 @@
       "matching_strictness": 0.8,
       "use_synonyms": true
     },
-    "media_player_action": {
-      "automatically_extensible": false,
-      "data": [
-        {
-          "synonyms": [
-            "start",
-            "resume"
-          ],
-          "value": "play"
-        },
-        {
-          "synonyms": [
-            "stop"
-          ],
-          "value": "pause"
-        }
-      ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "media_player_value": {
+    "to_or_by": {
       "automatically_extensible": false,
       "data": [
         {
           "synonyms": [],
-          "value": "next"
+          "value": "to"
         },
         {
           "synonyms": [],
-          "value": "previous"
+          "value": "by"
         }
       ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "navigation_action": {
-      "automatically_extensible": false,
-      "data": [
-        {
-          "synonyms": [
-            "begin",
-            "resume"
-          ],
-          "value": "start"
-        },
-        {
-          "synonyms": [
-            "end",
-            "cancel"
-          ],
-          "value": "stop"
-        }
-      ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "navigation_destination": {
-      "automatically_extensible": true,
-      "data": [],
       "matching_strictness": 1.0,
-      "use_synonyms": true
+      "use_synonyms": false
     },
-    "navigation_origin": {
-      "automatically_extensible": true,
-      "data": [],
-      "matching_strictness": 1.0,
-      "use_synonyms": true
-    },
-    "turn_signal_direction": {
+    "volume_control_action": {
       "automatically_extensible": false,
       "data": [
         {
           "synonyms": [
-            "left side"
+            "up",
+            "louder",
+            "raise"
           ],
-          "value": "left"
+          "value": "increase"
         },
         {
           "synonyms": [
-            "right side"
+            "lower",
+            "down",
+            "reduce",
+            "quieter"
           ],
-          "value": "right"
-        }
-      ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "window_action": {
-      "automatically_extensible": false,
-      "data": [
-        {
-          "synonyms": [
-            "roll down",
-            "up"
-          ],
-          "value": "open"
+          "value": "decrease"
         },
         {
           "synonyms": [
-            "roll up",
-            "down"
+            "adjust",
+            "change"
           ],
-          "value": "close"
-        }
-      ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "window_name": {
-      "automatically_extensible": false,
-      "data": [
-        {
-          "synonyms": [
-            "drivers",
-            "driver side"
-          ],
-          "value": "driver"
-        },
-        {
-          "synonyms": [
-            "passengers",
-            "passenger side"
-          ],
-          "value": "passenger"
-        },
-        {
-          "synonyms": [
-            "rear left",
-            "back left"
-          ],
-          "value": "rear_left"
-        },
-        {
-          "synonyms": [
-            "rear right",
-            "back right"
-          ],
-          "value": "rear_right"
-        }
-      ],
-      "matching_strictness": 0.8,
-      "use_synonyms": true
-    },
-    "window_value": {
-      "automatically_extensible": false,
-      "data": [
-        {
-          "synonyms": [
-            "about ten",
-            "by ten"
-          ],
-          "value": "ten"
-        },
-        {
-          "synonyms": [
-            "about twenty",
-            "by twenty"
-          ],
-          "value": "twenty"
-        },
-        {
-          "synonyms": [
-            "about twenty five",
-            "by twenty five",
-            "partially",
-            "little bit"
-          ],
-          "value": "twenty five"
-        },
-        {
-          "synonyms": [
-            "about thirty",
-            "by thirty"
-          ],
-          "value": "thirty"
-        },
-        {
-          "synonyms": [
-            "about fourty",
-            "by fourty"
-          ],
-          "value": "fourty"
-        },
-        {
-          "synonyms": [
-            "about fifty",
-            "by fifty",
-            "halfway",
-            "half"
-          ],
-          "value": "fifty"
-        },
-        {
-          "synonyms": [
-            "about sixty",
-            "by sixty"
-          ],
-          "value": "sixty"
-        },
-        {
-          "synonyms": [
-            "about seventy",
-            "by seventy"
-          ],
-          "value": "seventy"
-        },
-        {
-          "synonyms": [
-            "about seventy five",
-            "by seventy five",
-            "three quarters"
-          ],
-          "value": "seventy five"
-        },
-        {
-          "synonyms": [
-            "about eighty",
-            "by eighty"
-          ],
-          "value": "eighty"
-        },
-        {
-          "synonyms": [
-            "about ninety",
-            "by ninety"
-          ],
-          "value": "ninety"
-        },
-        {
-          "synonyms": [
-            "about hundred",
-            "by hundred",
-            "fully",
-            "completely",
-            "all the way"
-          ],
-          "value": "hundred"
+          "value": "set"
         }
       ],
       "matching_strictness": 0.8,
@@ -890,22 +538,22 @@
     }
   },
   "intents": {
-    "hvacFanSpeed": {
+    "HVACFanSpeed": {
       "utterances": [
         {
           "data": [
             {
               "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
+              "slot_name": "hvac_fan_speed_action",
               "text": "increase"
             },
             {
               "text": " the fan speed "
             },
             {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "one"
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty nine"
             },
             {
               "text": " percent"
@@ -916,903 +564,36 @@
           "data": [
             {
               "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
-              "text": "decrease"
-            },
-            {
-              "text": " the fan speed "
-            },
-            {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "to one"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "can you please "
-            },
-            {
-              "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
-              "text": "set"
-            },
-            {
-              "text": " the fan speed "
-            },
-            {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "by one"
-            },
-            {
-              "text": " percent"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "please "
-            },
-            {
-              "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
-              "text": "change"
-            },
-            {
-              "text": " the fan speed "
-            },
-            {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "two"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "i want to "
-            },
-            {
-              "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
-              "text": "adjust"
-            },
-            {
-              "text": " the fan speed "
-            },
-            {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "to two"
-            },
-            {
-              "text": " percent"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "could you "
-            },
-            {
-              "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
-              "text": "increase"
-            },
-            {
-              "text": " the fan speed "
-            },
-            {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "by two"
-            },
-            {
-              "text": " percent"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "hvac_fan_speed_action",
-              "slot_name": "action",
-              "text": "decrease"
-            },
-            {
-              "text": " the fan speed "
-            },
-            {
-              "entity": "hvac_fan_speed_value",
-              "slot_name": "value",
-              "text": "three"
-            },
-            {
-              "text": " percent"
-            }
-          ]
-        }
-      ]
-    },
-    "hvacTemperature": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "increase"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "one"
-            },
-            {
-              "text": " degrees celsius"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "decrease"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "to one"
-            },
-            {
-              "text": " degrees"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "can you please "
-            },
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "set"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "by one"
-            },
-            {
-              "text": " degrees"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "please "
-            },
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "change"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "two"
-            },
-            {
-              "text": " degrees celsius"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "i want to "
-            },
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "adjust"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "to two"
-            },
-            {
-              "text": " degrees"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "could you "
-            },
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "increase"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "by two"
-            },
-            {
-              "text": " degrees celsius"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "hvac_temperature_action",
-              "slot_name": "action",
-              "text": "decrease"
-            },
-            {
-              "text": " the temperature "
-            },
-            {
-              "entity": "hvac_temperature_value",
-              "slot_name": "value",
-              "text": "three"
-            },
-            {
-              "text": " degrees"
-            }
-          ]
-        }
-      ]
-    },
-    "mediaPlayer": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "play"
-            },
-            {
-              "text": " the media player"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "start"
-            },
-            {
-              "text": " the music"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "can you please "
-            },
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "resume"
-            },
-            {
-              "text": " the media player"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "please "
-            },
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "pause"
-            },
-            {
-              "text": " the music"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "I want to "
-            },
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "stop"
-            },
-            {
-              "text": " the media player"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "could you "
-            },
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "play"
-            },
-            {
-              "text": " the music"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "media_player_action",
-              "slot_name": "action",
-              "text": "start"
-            },
-            {
-              "text": " the "
-            },
-            {
-              "entity": "media_player_value",
-              "slot_name": "value",
-              "text": "next"
-            },
-            {
-              "text": " song"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "skip to the "
-            },
-            {
-              "entity": "media_player_value",
-              "slot_name": "value",
-              "text": "previous"
-            },
-            {
-              "text": " track"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "go back to the "
-            },
-            {
-              "entity": "media_player_value",
-              "slot_name": "value",
-              "text": "next"
-            },
-            {
-              "text": " track"
-            }
-          ]
-        }
-      ]
-    },
-    "navigation": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "start"
-            },
-            {
-              "text": " navigation to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "begin"
-            },
-            {
-              "text": " navigation from "
-            },
-            {
-              "entity": "navigation_origin",
-              "slot_name": "origin",
-              "text": "mayfair block, street five"
-            },
-            {
-              "text": " to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "can you please "
-            },
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "resume"
-            },
-            {
-              "text": " the navigation"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "please "
-            },
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "stop"
-            },
-            {
-              "text": " navigation"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "I want to "
-            },
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "end"
-            },
-            {
-              "text": " navigation"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "could you "
-            },
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "cancel"
-            },
-            {
-              "text": " navigation"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "navigate to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "direct me to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "take me to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "navigate from "
-            },
-            {
-              "entity": "navigation_origin",
-              "slot_name": "origin",
-              "text": "mayfair block, street five"
-            },
-            {
-              "text": " to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "route me from "
-            },
-            {
-              "entity": "navigation_origin",
-              "slot_name": "origin",
-              "text": "mayfair block, street five"
-            },
-            {
-              "text": " to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "plan a trip from "
-            },
-            {
-              "entity": "navigation_origin",
-              "slot_name": "origin",
-              "text": "mayfair block, street five"
-            },
-            {
-              "text": " to "
-            },
-            {
-              "entity": "navigation_destination",
-              "slot_name": "destination",
-              "text": "mcdonalds, street five"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "navigation_action",
-              "slot_name": "action",
-              "text": "start"
-            },
-            {
-              "text": " navigation"
-            }
-          ]
-        }
-      ]
-    },
-    "turnSignal": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "text": "turn on the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "left"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "activate the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "left side"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "switch on the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "right"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "can you please turn on the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "right side"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "please activate the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "left"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "i want to turn on the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "left side"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "could you switch on the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "right"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "set the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "right side"
-            },
-            {
-              "text": " turn signal to on"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "put on the "
-            },
-            {
-              "entity": "turn_signal_direction",
-              "slot_name": "direction",
-              "text": "left"
-            },
-            {
-              "text": " turn signal"
-            }
-          ]
-        }
-      ]
-    },
-    "window": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "open"
-            },
-            {
-              "text": " the "
-            },
-            {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "driver"
-            },
-            {
-              "text": " window"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "roll down"
-            },
-            {
-              "text": " the "
-            },
-            {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "drivers"
-            },
-            {
-              "text": " window "
-            },
-            {
-              "entity": "window_value",
-              "slot_name": "value",
-              "text": "ten"
-            },
-            {
-              "text": " percent"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "can you please "
-            },
-            {
-              "entity": "window_action",
-              "slot_name": "action",
+              "slot_name": "hvac_fan_speed_action",
               "text": "up"
             },
             {
-              "text": " the "
+              "text": " the fan speed "
             },
             {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "driver side"
-            },
-            {
-              "text": " window "
-            },
-            {
-              "entity": "window_value",
-              "slot_name": "value",
-              "text": "about ten"
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty"
             }
           ]
         },
         {
           "data": [
             {
-              "text": "please "
+              "text": "can you please "
             },
             {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "close"
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boost"
             },
             {
-              "text": " the "
+              "text": " the fan speed "
             },
             {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "passenger"
-            },
-            {
-              "text": " window"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "please "
-            },
-            {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "roll up"
-            },
-            {
-              "text": " the "
-            },
-            {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "passengers"
-            },
-            {
-              "text": " window "
-            },
-            {
-              "entity": "window_value",
-              "slot_name": "value",
-              "text": "by ten"
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty one"
             },
             {
               "text": " percent"
@@ -1822,59 +603,48 @@
         {
           "data": [
             {
-              "text": "i want to "
+              "text": "please "
             },
             {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "down"
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boosting"
             },
             {
-              "text": " the "
+              "text": " the fan speed "
             },
             {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "passenger side"
-            },
-            {
-              "text": " window "
-            },
-            {
-              "entity": "window_value",
-              "slot_name": "value",
-              "text": "twenty"
-            },
-            {
-              "text": " percent"
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty two"
             }
           ]
         },
         {
           "data": [
             {
-              "text": "i would like to "
+              "text": "i want "
             },
             {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "open"
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
             },
             {
-              "text": " the "
+              "text": " "
             },
             {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "rear_left"
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "raise"
             },
             {
-              "text": " window "
+              "text": " the fan speed "
             },
             {
-              "entity": "window_value",
-              "slot_name": "value",
-              "text": "about twenty"
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty three"
             },
             {
               "text": " percent"
@@ -1887,28 +657,2223 @@
               "text": "could you "
             },
             {
-              "entity": "window_action",
-              "slot_name": "action",
-              "text": "roll down"
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "decrease"
             },
             {
-              "text": " the "
+              "text": " the fan speed "
             },
             {
-              "entity": "window_name",
-              "slot_name": "name",
-              "text": "rear left"
-            },
-            {
-              "text": " window "
-            },
-            {
-              "entity": "window_value",
-              "slot_name": "value",
-              "text": "by twenty"
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty four"
             },
             {
               "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "down"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty five"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i would like "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "reduce"
+            },
+            {
+              "text": " the airflow."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey can you "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "back"
+            },
+            {
+              "text": " the fan intensity a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets crank "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "lower"
+            },
+            {
+              "text": " the ventilation."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you help me "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "set"
+            },
+            {
+              "text": " the fan power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "time "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " amp "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "adjust"
+            },
+            {
+              "text": " the blower speed"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i need more air circulation please ramp "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "change"
+            },
+            {
+              "text": " the fan"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "its warm in here lets kick it "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "increase"
+            },
+            {
+              "text": " a notch"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how about we jack "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "up"
+            },
+            {
+              "text": " the fan performance"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please bump "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boost"
+            },
+            {
+              "text": " the fan speed a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets hike "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boosting"
+            },
+            {
+              "text": " the fans power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i am feeling stuffy can we "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "raise"
+            },
+            {
+              "text": " it a little"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "time "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " step "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "decrease"
+            },
+            {
+              "text": " the fan speed"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey i need more breeze turn it "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "down"
+            },
+            {
+              "text": " a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want more cooling please amp it "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "reduce"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how about "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "back"
+            },
+            {
+              "text": " the fans intensity a tad"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "its getting stifling "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "lower"
+            },
+            {
+              "text": " it up please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i would love a stronger fan can you crank it "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "set"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "adjust"
+            },
+            {
+              "text": " it a little for better airflow"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "change"
+            },
+            {
+              "text": " the fan speed at "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty six"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "increase"
+            },
+            {
+              "text": " the fan speed a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey its a bit too breezy can you "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "up"
+            },
+            {
+              "text": " the fan speed"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets dial "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boost"
+            },
+            {
+              "text": " the fan intensity"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you help me "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boosting"
+            },
+            {
+              "text": " the fan power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "time "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " scale "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "raise"
+            },
+            {
+              "text": " the blower speed"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i need less air circulation please slow "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "decrease"
+            },
+            {
+              "text": " the fan"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "its getting chilly lets "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "down"
+            },
+            {
+              "text": " it a notch"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how about we tone it "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "reduce"
+            },
+            {
+              "text": " on the fan performance"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "back"
+            },
+            {
+              "text": " the fan speed a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "lower"
+            },
+            {
+              "text": " the fans power for a moment"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i would like "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "set"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty seven"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey can you "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "adjust"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty eight"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please amp "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "change"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirty nine"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "increase"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i would like "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "up"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty one"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey its too breezy can you "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boost"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty two"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets dial "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "boosting"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty three"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please slow "
+            },
+            {
+              "entity": "hvac_fan_speed_action",
+              "slot_name": "hvac_fan_speed_action",
+              "text": "raise"
+            },
+            {
+              "text": " the fan speed "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty four"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        }
+      ]
+    },
+    "HVACTemperature": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "increase"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "zero"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "up"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "one"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "boost"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "two"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "boosting"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "three"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "raise"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "four"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "heat"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "five"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "warm"
+            },
+            {
+              "text": " the room temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "six"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "its getting cold lets "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "warmer"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "seven"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "turn up the "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "decrease"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "eight"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "make it warmer "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "nine"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "down"
+            },
+            {
+              "text": " the temperature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "decrease the cars "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "reduce"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "ten"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "its too hot can we "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "back"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "eleven"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "lower"
+            },
+            {
+              "text": " the cars temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twelve"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lets "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "cool"
+            },
+            {
+              "text": " down the place "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "thirteen"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "colder"
+            },
+            {
+              "text": " the cars warmth "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourteen"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "set"
+            },
+            {
+              "text": " the temperature a bit, maybe "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fifteen"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "make it a bit "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "adjust"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "sixteen"
+            },
+            {
+              "text": " degrees celsius please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "change"
+            },
+            {
+              "text": " the thermostat "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "seventeen"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "increase"
+            },
+            {
+              "text": " the cars temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "eighteen"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "up"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "nineteen"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "boost"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "boosting"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty one"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "raise"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty two"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "heat"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty three"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "warm"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty four"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "warmer"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty five"
+            },
+            {
+              "text": " degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "decrease"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty six"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "down"
+            },
+            {
+              "text": " the temperature "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty seven"
+            },
+            {
+              "text": " degrees celsius"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "hvac_temperature_action",
+              "slot_name": "hvac_temperature_action",
+              "text": "reduce"
+            },
+            {
+              "text": " the thermostat "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "twenty eight"
+            },
+            {
+              "text": " degrees fahrenheit"
+            }
+          ]
+        }
+      ]
+    },
+    "VolumeControl": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "increase"
+            },
+            {
+              "text": " the volume"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "up"
+            },
+            {
+              "text": " the volume "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty five"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "turn the volume "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "louder"
+            },
+            {
+              "text": " a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "raise"
+            },
+            {
+              "text": " the sound"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "decrease"
+            },
+            {
+              "text": " the sound "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty six"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please crank "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "lower"
+            },
+            {
+              "text": " the volume"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "down"
+            },
+            {
+              "text": " the volume "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty seven"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want the volume "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "reduce"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "quieter"
+            },
+            {
+              "text": " the sound a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "set"
+            },
+            {
+              "text": " the volume"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "make it a little "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "adjust"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "turn the volume "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "change"
+            },
+            {
+              "text": " please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "increase"
+            },
+            {
+              "text": " the sound"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "up"
+            },
+            {
+              "text": " the volume"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "louder"
+            },
+            {
+              "text": " the volume "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty eight"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want it a bit "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "raise"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "decrease"
+            },
+            {
+              "text": " the sound a bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "lower"
+            },
+            {
+              "text": " the volume "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fourty nine"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "down"
+            },
+            {
+              "text": " the volume "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fifty"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "reduce"
+            },
+            {
+              "text": " the sound "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "halfway"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "quieter"
+            },
+            {
+              "text": " the volume "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "half"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "turn the volume "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "set"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fifty one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "make it a tad "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "adjust"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "change"
+            },
+            {
+              "text": " the volume up a notch"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "increase"
+            },
+            {
+              "text": " the sound "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fifty two"
+            },
+            {
+              "text": " level"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "up"
+            },
+            {
+              "text": " the volume a little"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you make it "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "louder"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fifty three"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "turn the volume "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "raise"
+            },
+            {
+              "text": " just a touch"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i would like "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "by"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "decrease"
+            },
+            {
+              "text": " the sound "
+            },
+            {
+              "entity": "to_or_by",
+              "slot_name": "to_or_by",
+              "text": "to"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "numeric_value",
+              "slot_name": "numeric_value",
+              "text": "fifty four"
+            },
+            {
+              "text": " percent"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "lower"
+            },
+            {
+              "text": " the volume a bit more"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you please "
+            },
+            {
+              "entity": "volume_control_action",
+              "slot_name": "volume_control_action",
+              "text": "down"
+            },
+            {
+              "text": " the sound slightly"
             }
           ]
         }

@@ -1,125 +1,145 @@
-# Car Window Intent
----
-type: intent
-name: window
-slots:
-  - name: action
-    entity: window_action
-  - name: name
-    entity: window_name
-  - name: value
-    entity: window_value
-utterances:
-  - "[action] the [name] window"
-  - "[action] the [name] window [value] percent"
-  - can you please [action] the [name] window [value]
-  - please [action] the [name] window
-  - please [action] the [name] window [value] percent
-  - i want to [action] the [name] window [value] percent
-  - i would like to [action] the [name] window [value] percent
-  - could you [action] the [name] window [value] percent
- 
-
-# Dashboard Turn Signals Intent
----
-type: intent
-name: turnSignal
-slots:
-  - name: direction
-    entity: turn_signal_direction
-utterances:
-  - turn on the [direction] turn signal
-  - activate the [direction] turn signal
-  - switch on the [direction] turn signal
-  - can you please turn on the [direction] turn signal
-  - please activate the [direction] turn signal
-  - i want to turn on the [direction] turn signal
-  - could you switch on the [direction] turn signal
-  - set the [direction] turn signal to on
-  - put on the [direction] turn signal
- 
- 
 # HVAC Temperature Intent
 ---
 type: intent
-name: hvacTemperature
+name: HVACTemperature
 slots:
-  - name: action
+  - name: hvac_temperature_action
     entity: hvac_temperature_action
-  - name: value
-    entity: hvac_temperature_value
+  - name: numeric_value
+    entity: numeric_value
+  - name: to_or_by
+    entity: to_or_by
 utterances:
-  - "[action] the temperature [value] degrees celsius"
-  - "[action] the temperature [value] degrees"
-  - can you please [action] the temperature [value] degrees
-  - please [action] the temperature [value] degrees celsius
-  - i want to [action] the temperature [value] degrees
-  - could you [action] the temperature [value] degrees celsius
-  - "[action] the temperature [value] degrees"
+  - "[hvac_temperature_action] the temperature [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the temperature [numeric_value] degrees"
+  - can you please [hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees
+  - please [hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius
+  - i want [to_or_by] [hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees
+  - could you [hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius
+  - "[hvac_temperature_action] the room temperature [to_or_by] [numeric_value] degrees celsius"
+  - its getting cold lets [hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees
+  - turn up the [hvac_temperature_action] [to_or_by] [numeric_value] degrees fahrenheit
+  - make it warmer [to_or_by] [numeric_value] degrees celsius
+  - "[hvac_temperature_action] the temperature"
+  - decrease the cars [hvac_temperature_action] [to_or_by] [numeric_value] degrees fahrenheit
+  - its too hot can we [hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius
+  - "[hvac_temperature_action] the cars temperature [to_or_by] [numeric_value] degrees fahrenheit"
+  - lets [hvac_temperature_action] down the place [to_or_by] [numeric_value] degrees
+  - "[hvac_temperature_action] the cars warmth [to_or_by] [numeric_value] degrees"
+  - can you [hvac_temperature_action] the temperature a bit, maybe [to_or_by] [numeric_value] degrees
+  - make it a bit [hvac_temperature_action] [to_or_by] [numeric_value] degrees celsius please
+  - "[hvac_temperature_action] the thermostat [to_or_by] [numeric_value] degrees fahrenheit"
+  - could you [hvac_temperature_action] the cars temperature [to_or_by] [numeric_value] degrees
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the thermostat [to_or_by] [numeric_value] degrees fahrenheit"
 
 
 # HVAC Fan Speed Intent
 ---
 type: intent
-name: hvacFanSpeed
+name: HVACFanSpeed
 slots:
-  - name: action
+  - name: hvac_fan_speed_action
     entity: hvac_fan_speed_action
-  - name: value
-    entity: hvac_fan_speed_value
+  - name: numeric_value
+    entity: numeric_value
+  - name: to_or_bymeric_value)
+    entity: to_or_by
 utterances:
-  - "[action] the fan speed [value] percent"
-  - "[action] the fan speed [value]"
-  - can you please [action] the fan speed [value] percent
-  - please [action] the fan speed [value]
-  - i want to [action] the fan speed [value] percent
-  - could you [action] the fan speed [value] percent
-  - "[action] the fan speed [value] percent"
+  - "[hvac_fan_speed_action] the fan speed [numeric_value] percent"
+  - "[hvac_fan_speed_action] the fan speed [numeric_value]"
+  - can you please [hvac_fan_speed_action] the fan speed [numeric_value] percent
+  - please [hvac_fan_speed_action] the fan speed [numeric_value]
+  - i want [to_or_by] [hvac_fan_speed_action] the fan speed [numeric_value] percent
+  - could you [hvac_fan_speed_action] the fan speed [numeric_value] percent
+  - "[hvac_fan_speed_action] the fan speed [numeric_value] percent"
+  - i would like [to_or_by] [hvac_fan_speed_action] the airflow.
+  - hey can you [hvac_fan_speed_action] the fan intensity a bit
+  - lets crank [hvac_fan_speed_action] the ventilation.
+  - could you help me [hvac_fan_speed_action] the fan power
+  - time [to_or_by] amp [hvac_fan_speed_action] the blower speed
+  - i need more air circulation please ramp [hvac_fan_speed_action] the fan
+  - its warm in here lets kick it [hvac_fan_speed_action] a notch
+  - how about we jack [hvac_fan_speed_action] the fan performance
+  - please bump [hvac_fan_speed_action] the fan speed a bit
+  - lets hike [hvac_fan_speed_action] the fans power
+  - i am feeling stuffy can we [hvac_fan_speed_action] it a little
+  - time [to_or_by] step [hvac_fan_speed_action] the fan speed
+  - hey i need more breeze turn it [hvac_fan_speed_action] a bit
+  - i want more cooling please amp it [hvac_fan_speed_action]
+  - how about [hvac_fan_speed_action] the fans intensity a tad
+  - its getting stifling [hvac_fan_speed_action] it up please
+  - i would love a stronger fan can you crank it [hvac_fan_speed_action]
+  - lets [hvac_fan_speed_action] it a little for better airflow
+  - i want [to_or_by] [hvac_fan_speed_action] the fan speed at [numeric_value]
+  - can you please [hvac_fan_speed_action] the fan speed a bit
+  - hey its a bit too breezy can you [hvac_fan_speed_action] the fan speed
+  - lets dial [hvac_fan_speed_action] the fan intensity
+  - could you help me [hvac_fan_speed_action] the fan power
+  - time [to_or_by] scale [hvac_fan_speed_action] the blower speed
+  - i need less air circulation please slow [hvac_fan_speed_action] the fan
+  - its getting chilly lets [hvac_fan_speed_action] it a notch
+  - how about we tone it [hvac_fan_speed_action] on the fan performance
+  - please [hvac_fan_speed_action] the fan speed a bit
+  - lets [hvac_fan_speed_action] the fans power for a moment
+  - i would like [to_or_by] [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value]
+  - hey can you [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent
+  - please amp [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent
+  - can you [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value]
+  - i would like [to_or_by] [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent
+  - hey its too breezy can you [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent
+  - lets dial [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value]
+  - please slow [hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent
 
 
-# Media Player Intent
+# Volume Control Intent
 ---
 type: intent
-name: mediaPlayer
+name: VolumeControl
 slots:
-  - name: action
-    entity: media_player_action
-  - name: value
-    entity: media_player_value
+  - name: volume_control_action
+    entity: volume_control_action
+  - name: numeric_value
+    entity: numeric_value
+  - name: to_or_by
+    entity: to_or_by
 utterances:
-  - "[action] the media player"
-  - "[action] the music"
-  - can you please [action] the media player
-  - please [action] the music
-  - I want to [action] the media player
-  - could you [action] the music
-  - "[action] the [value] song"
-  - skip to the [value] track
-  - go back to the [value] track
-
-
-# Navigation Intent
----
-type: intent
-name: navigation
-slots:
-  - name: action
-    entity: navigation_action
-  - name: origin
-    entity: navigation_origin
-  - name: destination
-    entity: navigation_destination
-utterances:
-  - "[action] navigation to [destination](mcdonalds, street five)"
-  - "[action] navigation from [origin](mayfair block, street five) to [destination]"
-  - can you please [action] the navigation
-  - please [action] navigation
-  - I want to [action] navigation
-  - could you [action] navigation
-  - navigate to [destination]
-  - direct me to [destination]
-  - take me to [destination]
-  - navigate from [origin] to [destination]
-  - route me from [origin] to [destination]
-  - plan a trip from [origin] to [destination]
-  - "[action] navigation"
+  - "[volume_control_action] the volume"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value] percent"
+  - turn the volume [volume_control_action] a bit
+  - "[volume_control_action] the sound"
+  - "[volume_control_action] the sound [to_or_by] [numeric_value]"
+  - can you please crank [volume_control_action] the volume
+  - please [volume_control_action] the volume [to_or_by] [numeric_value]
+  - i want the volume [volume_control_action]
+  - could you [volume_control_action] the sound a bit
+  - "[volume_control_action] the volume"
+  - make it a little [volume_control_action]
+  - turn the volume [volume_control_action] please
+  - "[volume_control_action] the sound"
+  - can you please [volume_control_action] the volume
+  - please [volume_control_action] the volume [to_or_by] [numeric_value]
+  - i want it a bit [volume_control_action]
+  - could you [volume_control_action] the sound a bit
+  - "[volume_control_action] the volume [to_or_by] [numeric_value]"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the sound [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value]"
+  - turn the volume [volume_control_action] [to_or_by] [numeric_value]
+  - make it a tad [volume_control_action]
+  - can you [volume_control_action] the volume up a notch
+  - please [volume_control_action] the sound [to_or_by] [numeric_value] level
+  - "[volume_control_action] the volume a little"
+  - could you make it [volume_control_action] [to_or_by] [numeric_value] percent
+  - turn the volume [volume_control_action] just a touch
+  - i would like [to_or_by] [volume_control_action] the sound [to_or_by] [numeric_value] percent
+  - "[volume_control_action] the volume a bit more"
+  - can you please [volume_control_action] the sound slightly

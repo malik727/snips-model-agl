@@ -200,69 +200,35 @@
       "hvac_fan_speed_action": {
         "automatically_extensible": false
       },
-      "hvac_fan_speed_value": {
-        "automatically_extensible": false
-      },
       "hvac_temperature_action": {
         "automatically_extensible": false
       },
-      "hvac_temperature_value": {
+      "numeric_value": {
         "automatically_extensible": false
       },
-      "media_player_action": {
+      "to_or_by": {
         "automatically_extensible": false
       },
-      "media_player_value": {
-        "automatically_extensible": false
-      },
-      "navigation_action": {
-        "automatically_extensible": false
-      },
-      "navigation_destination": {
-        "automatically_extensible": true
-      },
-      "navigation_origin": {
-        "automatically_extensible": true
-      },
-      "turn_signal_direction": {
-        "automatically_extensible": false
-      },
-      "window_action": {
-        "automatically_extensible": false
-      },
-      "window_name": {
-        "automatically_extensible": false
-      },
-      "window_value": {
+      "volume_control_action": {
         "automatically_extensible": false
       }
     },
     "language_code": "en",
     "slot_name_mappings": {
-      "hvacFanSpeed": {
-        "action": "hvac_fan_speed_action",
-        "value": "hvac_fan_speed_value"
+      "HVACFanSpeed": {
+        "hvac_fan_speed_action": "hvac_fan_speed_action",
+        "numeric_value": "numeric_value",
+        "to_or_by": "to_or_by"
       },
-      "hvacTemperature": {
-        "action": "hvac_temperature_action",
-        "value": "hvac_temperature_value"
+      "HVACTemperature": {
+        "hvac_temperature_action": "hvac_temperature_action",
+        "numeric_value": "numeric_value",
+        "to_or_by": "to_or_by"
       },
-      "mediaPlayer": {
-        "action": "media_player_action",
-        "value": "media_player_value"
-      },
-      "navigation": {
-        "action": "navigation_action",
-        "destination": "navigation_destination",
-        "origin": "navigation_origin"
-      },
-      "turnSignal": {
-        "direction": "turn_signal_direction"
-      },
-      "window": {
-        "action": "window_action",
-        "name": "window_name",
-        "value": "window_value"
+      "VolumeControl": {
+        "numeric_value": "numeric_value",
+        "to_or_by": "to_or_by",
+        "volume_control_action": "volume_control_action"
       }
     }
   },
